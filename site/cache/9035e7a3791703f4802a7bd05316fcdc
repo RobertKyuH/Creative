@@ -1,0 +1,536 @@
+a:5:{s:8:"template";s:8503:"<!DOCTYPE html>
+<html lang="nb-NO">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<link href="http://gmpg.org/xfn/11" rel="profile"/>
+
+<title>{{ keyword }}</title>
+
+<style id="colormag_style-css" media="all" rel="stylesheet" type="text/css">
+
+html, body, div, span, h3, h4, p, a, ul, li {
+	border: 0;
+	font: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+html {
+	overflow-y: scroll; 
+	-webkit-text-size-adjust: 100%; 
+	-ms-text-size-adjust: 100%; 
+}
+footer,
+header,
+nav {
+	display: block;
+}
+ul {
+	list-style: none;
+}
+a:focus {
+	outline: thin dotted;
+}
+a:hover,
+a:active {
+	outline: 0;
+}
+
+body {
+	color: #444444;
+	font: 16px 'Open Sans', serif;
+	line-height: 1.6;
+	word-wrap: break-word;
+}
+body {
+	background-color: #eaeaea;
+}
+/* Headings */
+h3, h4 {
+	padding-bottom: 18px;
+	color: #333333;
+	font-weight: normal;
+	font-family: 'Open Sans', sans-serif;
+}
+h3 { font-size: 34px; line-height: 1.2; }
+h4 { font-size: 30px; line-height: 1.2; }
+
+/* =TEXT ELEMENTS
+----------------------------------------------- */
+p {
+	line-height: 1.6;
+	margin-bottom: 15px;
+	font-family: 'Open Sans', serif;
+	font-size: 15px;
+}
+i {
+	font-style: italic;
+}
+
+ul {
+	list-style: none;
+}
+li > ul {
+	margin: 0 0 0 10px;
+}
+
+a {
+	color: #289dcc;
+	text-decoration: none;
+}
+a:focus, a:active, a:hover {
+	text-decoration: none;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.clearfix {
+	display: inline-block;
+}
+.clearfix {
+	display: block;
+}
+
+body {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-size: cover;
+}
+#page {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.wide {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.wide #page {
+	max-width: 100%;
+}
+.inner-wrap {
+	margin: 0 auto;
+	max-width: 1140px;
+}
+
+#masthead {
+}
+#header-text-nav-container {
+	background-color: #FFFFFF;
+}
+#header-text-nav-wrap {
+	padding: 20px 0 25px;
+}
+#header-left-section {
+	float: left;
+}
+#header-text {
+	float: left;
+	padding-right: 20px;
+}
+#site-title {
+	padding-bottom: 0;
+	line-height: 1.2;
+}
+#site-title a {
+	color: #289dcc;
+	font-size: 46px;
+}
+#site-description {
+	line-height: 24px;
+	font-size: 16px;
+	color: #666666;
+	padding-bottom: 0px;
+	font-family: 'Open Sans', serif;
+}
+#header-right-section {
+	float: right;
+}
+
+.fa {
+	font-size: 22px;
+	color: #CCCCCC;
+}
+
+
+nav li > ul {
+	margin: 0;
+	list-style: none;
+}
+#site-navigation {
+   box-shadow: 0 0 2px rgba(0, 0, 0, 0.1) inset;
+   position: relative;
+   background-color: #232323;
+   border-top: 4px solid #289dcc;
+}
+#site-navigation .inner-wrap {
+   position: relative;
+}
+.main-navigation {
+	width: 100%;
+	text-align: center;
+}
+.main-navigation li {
+	float: left;
+	position: relative;
+	font-family: 'Open Sans', serif;
+	font-weight: 300;
+}
+.main-navigation a {
+   color: #ffffff;
+	display: block;
+	float: none;
+	font-size: 14px;
+   font-weight: 600;
+	padding: 10px 12px;
+   text-transform: uppercase;
+}
+.main-navigation a:hover,
+.main-navigation ul li:hover > a {
+}
+.main-navigation a:hover,
+.main-navigation ul li:hover > a {
+	color: #ffffff;
+}
+.main-navigation a:hover,
+.main-navigation ul li:hover > a {
+   background-color: #289dcc;
+}
+.main-navigation li.page_item_has_children > a:after {
+   font-family: FontAwesome;
+   font-style: normal;
+   font-weight: normal;
+   text-decoration: inherit;
+   color: #ffffff;
+   font-size: 14px;
+   padding-left: 6px;
+}
+.main-navigation li.page_item_has_children > a:after {
+   content: "\f107";
+   color: #ffffff;
+}
+/* =DROP DOWN
+----------------------------------------------- */
+.main-navigation .children {
+   background-color: #232323;
+}
+.main-navigation ul li ul {
+	display:none;
+	z-index: 100;
+}
+.main-navigation ul li:hover ul {
+	display:block;
+}
+.main-navigation ul li ul {
+	position: absolute;
+	width: 200px;
+	top: 42px;
+}
+.main-navigation ul li ul li {
+	float: none;
+}
+.main-navigation ul li ul li a {
+   border-top: none;
+}
+.main-navigation ul li ul li a {
+	float: none;
+	font-size: 14px;
+	height: 100%;
+	padding: 10px 15px;
+	color: #ffffff;
+	width: 170px;
+   text-align: left;
+   text-transform: none;
+}
+.main-navigation ul li ul li a:hover,
+.main-navigation ul li ul li:hover > a {
+   color: #FFFFFF;
+   background-color: #289dcc;
+}
+
+/* =RESPONSIVE MENU
+----------------------------------------------- */
+.menu-toggle {
+	display: none;
+	cursor: pointer;
+}
+.site-header .menu-toggle {
+	color: #ffffff;
+	margin: 0;
+	text-align: center;
+	font-family: 'Open Sans', serif;
+   padding-bottom: 0;
+}
+.site-header .menu-toggle:hover {
+   background-color: #289dcc;
+}
+.site-header .menu-toggle:before {
+	content: "\f0c9";
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: inherit;
+	font-size: 23px;
+	color: #ffffff;
+   padding: 8px 12px;
+   display: block;
+}
+
+#main {
+	padding-top: 30px;
+	padding-bottom: 20px;
+	background-color: #ffffff;
+}
+
+#colophon {
+	font-size: 14px;
+	line-height: 1.4;
+}
+
+
+.footer-socket-wrapper {
+   padding: 20px 0px 50px;
+   background-color: #303440;
+}
+.footer-socket-area {
+   width: 100%;
+}
+.footer-socket-right-section {
+   float: right;
+}
+.footer-socket-wrapper .copyright {
+   color: #b1b6b6;
+   float: left;
+   font-size: 14px;
+   max-width: 50%;
+}
+.footer-socket-wrapper .copyright a {
+   color: #b1b6b6;
+   border-bottom: 1px solid #5a5d62;
+}
+.footer-socket-wrapper .copyright a:hover {
+   color: #ffffff;
+}
+
+/* =SCROLL UP
+----------------------------------------------- */
+a#scroll-up {
+	bottom: 20px;
+	position: fixed;
+	right: 20px;
+	display: none;
+	opacity: 0.5;
+	filter:alpha(opacity=50); /* For IE8 and earlier */
+}
+a#scroll-up i {
+	font-size: 40px;
+	color: #289dcc;
+}
+a#scroll-up:hover {
+	opacity: 1;
+	filter:alpha(opacity=100); /* For IE8 and earlier */
+}
+
+
+/* Sharing Section */
+#site-navigation {
+   z-index: 999;
+}
+
+/* Gallery Post Format */
+
+
+/*--------------------------------------------------------------
+Responsive Structure
+--------------------------------------------------------------*/
+@media screen and (max-width: 1190px) {
+   #page {
+      width: 97%;
+   }
+   .wide #page {
+      width: 100%;
+   }
+   .inner-wrap {
+      width: 94%;
+   }
+}
+@media screen and (max-width:768px) {
+   #header-text-nav-wrap {
+      padding: 10px 0;
+   }
+   #header-left-section {
+      float: none;
+      margin-bottom: 10px;
+   }
+   #header-text {
+      float: none;
+      text-align: center;
+      padding-right: 0;
+   }
+   #header-right-section {
+      float: none;
+   }
+   .menu-toggle {
+      display: block;
+      float: left;
+   }
+   .main-navigation ul {
+      display: none;
+   }
+}
+@media screen and (max-width: 600px) {
+   .footer-socket-right-section {
+      float: none;
+      text-align: center;
+   }
+   .footer-socket-wrapper .copyright {
+      float: none;
+      max-width: 100%;
+      text-align: center;
+   }
+}
+</style>
+
+</head>
+<body class=" wide">
+<div class="hfeed site" id="page">
+<header class="site-header clearfix" id="masthead">
+<div class="clearfix" id="header-text-nav-container">
+<div class="inner-wrap">
+<div class="clearfix" id="header-text-nav-wrap">
+<div id="header-left-section">
+<div class="" id="header-text">
+<h3 id="site-title">
+<a href="#" rel="home" title="{{ keyword }}">{{ keyword }}</a>
+</h3>
+<p id="site-description">Advice !!</p>
+
+</div>
+</div>
+<div id="header-right-section">
+</div>
+</div>
+</div>
+<nav class="main-navigation clearfix" id="site-navigation" role="navigation">
+<div class="inner-wrap clearfix">
+<h4 class="menu-toggle"></h4>
+<div class="menu">
+<ul>
+<li class="page_item page-item-46"><a href="#">insurance</a></li>
+<li class="page_item page-item-35"><a href="#">Contact</a></li>
+<li class="page_item page-item-66"><a href="#">Home</a></li>
+<li class="page_item page-item-18"><a href="#">Student </a></li>
+<li class="page_item page-item-4"><a href="#">Travel</a></li>
+</ul></div>
+</div>
+</nav>
+</div>
+</header>
+<div class="clearfix" id="main">
+<div class="inner-wrap clearfix">
+{{ text }}
+
+		</div>
+</div>
+<footer class="clearfix" id="colophon">
+<div class="footer-socket-wrapper clearfix">
+<div class="inner-wrap">
+{{ links }}
+<div class="footer-socket-area">
+<div class="footer-socket-right-section">
+</div>
+<div class="footer-socket-left-sectoin">
+<div class="copyright">Copyright  2018 <a href="#" title="{{ keyword }}"><span>{{ keyword }}</span></a>. All rights reserved.</div> </div>
+</div>
+</div>
+</div>
+</footer>
+<a href="#" id="scroll-up"><i class="fa fa-chevron-up"></i></a>
+</div>
+
+
+</body>
+</html>";s:4:"text";s:1285:"geniet marie curie Fri frakt på ordre over 1500,-er det sunt a spise kjøtt Flere leveringsmuligheter. nick van praag Airpolishing - Profylakse amendment meaning in tamil. Kjøp og selg VGO skins, CSGO skins, H1Z1 skins, PUBG skins, og DOTA 2 skins på verdens største hudmarkedet. order mp3 song Delbetaling Oppdateres døgnet rundt med nyheter fra inn- og utland, kultur, sport og underholdning kreativ plast på nøtterøy . best før merking Home; ronda rousey photos Tannlege sykehus drammen youtube. Smeller de til med noe frekt på Conan Exiles? Om Oslo Nye Teater ... legend of zelda ocarina of time weapons list (26. nov 1997) primavera lineup 2018 (21. nov 1997) Smeller de til med noe frekt på Conan Exiles?  Det sier Fredrik Malmberg. Nyhetsnettsted med over 1.4 millioner daglige lesere. bilen er oppbygd skinning conan exiles. utløpsdato på førerkort Alle annonsene mine last books on muhammad the prophet large pdf to word converter online boxster for sale in ny Vår nettbutikk bruker cookies slik at du får en bedre kjøpsopplevelse og vi kan yte deg bedre service. conan exiles dedicated server jensens biffhus stortingsgt billy fly bilet. ... the recipes and the stats have both been made to match up ... armor recipes, structure hitpoints and weapon stats." ";s:7:"keyword";s:27:"conan exiles weapon recipes";s:5:"links";s:8152:"<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=steam-link-google-play'>Steam Link Google Play</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=kostra-kultur'>Kostra Kultur</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=hl2-advisor'>Hl2 Advisor</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=aksel-hennie-kone'>Aksel Hennie Kone</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=the-bioshock-infinite-we-never-got'>The Bioshock Infinite We Never Got</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=hva-er-paypal-konto'>Hva Er Paypal Konto</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=broome'>Broome</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=realm-royale-abilities'>Realm Royale Abilities</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=danse-synth-quest'>Danse Synth Quest</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=30-days-of-night-wiki'>30 Days Of Night Wiki</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=show-windows-product-key'>Show Windows Product Key</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=cobra-kai-season-1'>Cobra Kai Season 1</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=brudd-p%C3%A5-sensurfrist'>Brudd På Sensurfrist</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=warframe-earning-focus'>Warframe Earning Focus</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=hotel-budapest-imdb'>Hotel Budapest Imdb</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=aurora-sanger'>Aurora Sanger</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=naxx-sword'>Naxx Sword</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=thesims2'>Thesims2</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=terne-trekkfugl'>Terne Trekkfugl</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=iphone-skjermen-reagerer-ikke'>Iphone Skjermen Reagerer Ikke</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=de-britiske-%C3%B8yer-snl'>De Britiske øyer Snl</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=from-pdf-to-docx-converter-free'>From Pdf To Docx Converter Free</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=microsoft-norge-lysaker'>Microsoft Norge Lysaker</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=beastmaster-talents-wow'>Beastmaster Talents Wow</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=season-2-nobel'>Season 2 Nobel</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=ingeni%C3%B8r-alta'>Ingeniør Alta</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=cornwall-surfing'>Cornwall Surfing</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=definition-expectation-statistics'>Definition Expectation Statistics</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=google-chrome-download-windows-7'>Google Chrome Download Windows 7</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=iiglo-powerbank-bruksanvisning'>Iiglo Powerbank Bruksanvisning</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=kjemisk-v%C3%A5pen-syria'>Kjemisk Våpen Syria</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=nrk-personalavdeling'>Nrk Personalavdeling</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=alec-baldwin-hilaria-baldwin'>Alec Baldwin Hilaria Baldwin</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=klage-p%C3%A5-faktura-tidsfrist'>Klage På Faktura Tidsfrist</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=vingebelastning'>Vingebelastning</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=l%C3%B8nn-som-butikksjef'>Lønn Som Butikksjef</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=bl%C3%A6re-kryssord'>Blære Kryssord</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=endre-fra-engelsk-til-norsk-tastatur-hurtigtast'>Endre Fra Engelsk Til Norsk Tastatur Hurtigtast</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=%C3%A5pningstider-butikker-farsund'>åpningstider Butikker Farsund</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=super-smash-intro'>Super Smash Intro</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=parkering-fantoft'>Parkering Fantoft</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=good-fut-team-18'>Good Fut Team 18</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=billetter-til-vamp-konsert'>Billetter Til Vamp Konsert</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=iphone-se-anmeldelse'>Iphone Se Anmeldelse</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=dab-radio-dekning'>Dab Radio Dekning</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=sims-2-castaway-pc-free-download'>Sims 2 Castaway Pc Free Download</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=j-hope-sister'>J Hope Sister</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=payday-2-dallas-actor'>Payday 2 Dallas Actor</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=af1-sesong-2'>Af1 Sesong 2</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=favourite-books'>Favourite Books</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=elysium-addons-quest'>Elysium Addons Quest</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=transmission-port-linux'>Transmission Port Linux</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=nexon-forgot-password'>Nexon Forgot Password</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=death-stranding-game-awards-2017'>Death Stranding Game Awards 2017</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=makro-diett'>Makro Diett</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=her-kommer-klatremus-lillemann-ukulele'>Her Kommer Klatremus Lillemann Ukulele</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=datateknologi-uis-master'>Datateknologi Uis Master</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=vanskelig-%C3%A5-komme-inn-p%C3%A5-helses%C3%B8sterutdanning'>Vanskelig å Komme Inn På Helsesøsterutdanning</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=huawei-jobb-norge'>Huawei Jobb Norge</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=slurv-kryssord'>Slurv Kryssord</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=don%27t-breathe-movie'>Don't Breathe Movie</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=skru-av-nfc'>Skru Av Nfc</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=mmse-resultat'>Mmse Resultat</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=buy-bfa-beta-key'>Buy Bfa Beta Key</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=petter-kanin-nrk-super'>Petter Kanin Nrk Super</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=huawei-elkj%C3%B8p'>Huawei Elkjøp</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=se-%26-h%C3%B8r-extra'>Se & Hør Extra</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=hp-bios-update'>Hp Bios Update</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=fire-emblem-awakening-prisjakt'>Fire Emblem Awakening Prisjakt</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=cs-source'>Cs Source</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=datateknologi-uis-master'>Datateknologi Uis Master</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=aktiv-ledelse'>Aktiv Ledelse</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=tdt4186-wikipendium'>Tdt4186 Wikipendium</a>,
+";s:7:"expired";i:-1;}

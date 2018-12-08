@@ -1,0 +1,532 @@
+a:5:{s:8:"template";s:8503:"<!DOCTYPE html>
+<html lang="nb-NO">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<link href="http://gmpg.org/xfn/11" rel="profile"/>
+
+<title>{{ keyword }}</title>
+
+<style id="colormag_style-css" media="all" rel="stylesheet" type="text/css">
+
+html, body, div, span, h3, h4, p, a, ul, li {
+	border: 0;
+	font: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+html {
+	overflow-y: scroll; 
+	-webkit-text-size-adjust: 100%; 
+	-ms-text-size-adjust: 100%; 
+}
+footer,
+header,
+nav {
+	display: block;
+}
+ul {
+	list-style: none;
+}
+a:focus {
+	outline: thin dotted;
+}
+a:hover,
+a:active {
+	outline: 0;
+}
+
+body {
+	color: #444444;
+	font: 16px 'Open Sans', serif;
+	line-height: 1.6;
+	word-wrap: break-word;
+}
+body {
+	background-color: #eaeaea;
+}
+/* Headings */
+h3, h4 {
+	padding-bottom: 18px;
+	color: #333333;
+	font-weight: normal;
+	font-family: 'Open Sans', sans-serif;
+}
+h3 { font-size: 34px; line-height: 1.2; }
+h4 { font-size: 30px; line-height: 1.2; }
+
+/* =TEXT ELEMENTS
+----------------------------------------------- */
+p {
+	line-height: 1.6;
+	margin-bottom: 15px;
+	font-family: 'Open Sans', serif;
+	font-size: 15px;
+}
+i {
+	font-style: italic;
+}
+
+ul {
+	list-style: none;
+}
+li > ul {
+	margin: 0 0 0 10px;
+}
+
+a {
+	color: #289dcc;
+	text-decoration: none;
+}
+a:focus, a:active, a:hover {
+	text-decoration: none;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.clearfix {
+	display: inline-block;
+}
+.clearfix {
+	display: block;
+}
+
+body {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-size: cover;
+}
+#page {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.wide {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.wide #page {
+	max-width: 100%;
+}
+.inner-wrap {
+	margin: 0 auto;
+	max-width: 1140px;
+}
+
+#masthead {
+}
+#header-text-nav-container {
+	background-color: #FFFFFF;
+}
+#header-text-nav-wrap {
+	padding: 20px 0 25px;
+}
+#header-left-section {
+	float: left;
+}
+#header-text {
+	float: left;
+	padding-right: 20px;
+}
+#site-title {
+	padding-bottom: 0;
+	line-height: 1.2;
+}
+#site-title a {
+	color: #289dcc;
+	font-size: 46px;
+}
+#site-description {
+	line-height: 24px;
+	font-size: 16px;
+	color: #666666;
+	padding-bottom: 0px;
+	font-family: 'Open Sans', serif;
+}
+#header-right-section {
+	float: right;
+}
+
+.fa {
+	font-size: 22px;
+	color: #CCCCCC;
+}
+
+
+nav li > ul {
+	margin: 0;
+	list-style: none;
+}
+#site-navigation {
+   box-shadow: 0 0 2px rgba(0, 0, 0, 0.1) inset;
+   position: relative;
+   background-color: #232323;
+   border-top: 4px solid #289dcc;
+}
+#site-navigation .inner-wrap {
+   position: relative;
+}
+.main-navigation {
+	width: 100%;
+	text-align: center;
+}
+.main-navigation li {
+	float: left;
+	position: relative;
+	font-family: 'Open Sans', serif;
+	font-weight: 300;
+}
+.main-navigation a {
+   color: #ffffff;
+	display: block;
+	float: none;
+	font-size: 14px;
+   font-weight: 600;
+	padding: 10px 12px;
+   text-transform: uppercase;
+}
+.main-navigation a:hover,
+.main-navigation ul li:hover > a {
+}
+.main-navigation a:hover,
+.main-navigation ul li:hover > a {
+	color: #ffffff;
+}
+.main-navigation a:hover,
+.main-navigation ul li:hover > a {
+   background-color: #289dcc;
+}
+.main-navigation li.page_item_has_children > a:after {
+   font-family: FontAwesome;
+   font-style: normal;
+   font-weight: normal;
+   text-decoration: inherit;
+   color: #ffffff;
+   font-size: 14px;
+   padding-left: 6px;
+}
+.main-navigation li.page_item_has_children > a:after {
+   content: "\f107";
+   color: #ffffff;
+}
+/* =DROP DOWN
+----------------------------------------------- */
+.main-navigation .children {
+   background-color: #232323;
+}
+.main-navigation ul li ul {
+	display:none;
+	z-index: 100;
+}
+.main-navigation ul li:hover ul {
+	display:block;
+}
+.main-navigation ul li ul {
+	position: absolute;
+	width: 200px;
+	top: 42px;
+}
+.main-navigation ul li ul li {
+	float: none;
+}
+.main-navigation ul li ul li a {
+   border-top: none;
+}
+.main-navigation ul li ul li a {
+	float: none;
+	font-size: 14px;
+	height: 100%;
+	padding: 10px 15px;
+	color: #ffffff;
+	width: 170px;
+   text-align: left;
+   text-transform: none;
+}
+.main-navigation ul li ul li a:hover,
+.main-navigation ul li ul li:hover > a {
+   color: #FFFFFF;
+   background-color: #289dcc;
+}
+
+/* =RESPONSIVE MENU
+----------------------------------------------- */
+.menu-toggle {
+	display: none;
+	cursor: pointer;
+}
+.site-header .menu-toggle {
+	color: #ffffff;
+	margin: 0;
+	text-align: center;
+	font-family: 'Open Sans', serif;
+   padding-bottom: 0;
+}
+.site-header .menu-toggle:hover {
+   background-color: #289dcc;
+}
+.site-header .menu-toggle:before {
+	content: "\f0c9";
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: inherit;
+	font-size: 23px;
+	color: #ffffff;
+   padding: 8px 12px;
+   display: block;
+}
+
+#main {
+	padding-top: 30px;
+	padding-bottom: 20px;
+	background-color: #ffffff;
+}
+
+#colophon {
+	font-size: 14px;
+	line-height: 1.4;
+}
+
+
+.footer-socket-wrapper {
+   padding: 20px 0px 50px;
+   background-color: #303440;
+}
+.footer-socket-area {
+   width: 100%;
+}
+.footer-socket-right-section {
+   float: right;
+}
+.footer-socket-wrapper .copyright {
+   color: #b1b6b6;
+   float: left;
+   font-size: 14px;
+   max-width: 50%;
+}
+.footer-socket-wrapper .copyright a {
+   color: #b1b6b6;
+   border-bottom: 1px solid #5a5d62;
+}
+.footer-socket-wrapper .copyright a:hover {
+   color: #ffffff;
+}
+
+/* =SCROLL UP
+----------------------------------------------- */
+a#scroll-up {
+	bottom: 20px;
+	position: fixed;
+	right: 20px;
+	display: none;
+	opacity: 0.5;
+	filter:alpha(opacity=50); /* For IE8 and earlier */
+}
+a#scroll-up i {
+	font-size: 40px;
+	color: #289dcc;
+}
+a#scroll-up:hover {
+	opacity: 1;
+	filter:alpha(opacity=100); /* For IE8 and earlier */
+}
+
+
+/* Sharing Section */
+#site-navigation {
+   z-index: 999;
+}
+
+/* Gallery Post Format */
+
+
+/*--------------------------------------------------------------
+Responsive Structure
+--------------------------------------------------------------*/
+@media screen and (max-width: 1190px) {
+   #page {
+      width: 97%;
+   }
+   .wide #page {
+      width: 100%;
+   }
+   .inner-wrap {
+      width: 94%;
+   }
+}
+@media screen and (max-width:768px) {
+   #header-text-nav-wrap {
+      padding: 10px 0;
+   }
+   #header-left-section {
+      float: none;
+      margin-bottom: 10px;
+   }
+   #header-text {
+      float: none;
+      text-align: center;
+      padding-right: 0;
+   }
+   #header-right-section {
+      float: none;
+   }
+   .menu-toggle {
+      display: block;
+      float: left;
+   }
+   .main-navigation ul {
+      display: none;
+   }
+}
+@media screen and (max-width: 600px) {
+   .footer-socket-right-section {
+      float: none;
+      text-align: center;
+   }
+   .footer-socket-wrapper .copyright {
+      float: none;
+      max-width: 100%;
+      text-align: center;
+   }
+}
+</style>
+
+</head>
+<body class=" wide">
+<div class="hfeed site" id="page">
+<header class="site-header clearfix" id="masthead">
+<div class="clearfix" id="header-text-nav-container">
+<div class="inner-wrap">
+<div class="clearfix" id="header-text-nav-wrap">
+<div id="header-left-section">
+<div class="" id="header-text">
+<h3 id="site-title">
+<a href="#" rel="home" title="{{ keyword }}">{{ keyword }}</a>
+</h3>
+<p id="site-description">Advice !!</p>
+
+</div>
+</div>
+<div id="header-right-section">
+</div>
+</div>
+</div>
+<nav class="main-navigation clearfix" id="site-navigation" role="navigation">
+<div class="inner-wrap clearfix">
+<h4 class="menu-toggle"></h4>
+<div class="menu">
+<ul>
+<li class="page_item page-item-46"><a href="#">insurance</a></li>
+<li class="page_item page-item-35"><a href="#">Contact</a></li>
+<li class="page_item page-item-66"><a href="#">Home</a></li>
+<li class="page_item page-item-18"><a href="#">Student </a></li>
+<li class="page_item page-item-4"><a href="#">Travel</a></li>
+</ul></div>
+</div>
+</nav>
+</div>
+</header>
+<div class="clearfix" id="main">
+<div class="inner-wrap clearfix">
+{{ text }}
+
+		</div>
+</div>
+<footer class="clearfix" id="colophon">
+<div class="footer-socket-wrapper clearfix">
+<div class="inner-wrap">
+{{ links }}
+<div class="footer-socket-area">
+<div class="footer-socket-right-section">
+</div>
+<div class="footer-socket-left-sectoin">
+<div class="copyright">Copyright  2018 <a href="#" title="{{ keyword }}"><span>{{ keyword }}</span></a>. All rights reserved.</div> </div>
+</div>
+</div>
+</div>
+</footer>
+<a href="#" id="scroll-up"><i class="fa fa-chevron-up"></i></a>
+</div>
+
+
+</body>
+</html>";s:4:"text";s:3523:"Roy Jenkins: Churchill - 2. verdenskrig er over - Churchill går av som statsminister Kapitlet «Begynnelsen på slutten» starter på side 769. The Encyclopedia of the War Years 1941-1945. In History. Det er ikke til å underslå at selv om det jeg leser om i biografien for det meste er interessant, særlig tiden under 2. verdenskrig… Frigjøringsdagen i Norge tirsdag 8. mai 1945 er dagen da tyske militære styrker kapitulerte etter at de siden tirsdag 9. april 1940 hadde okkupert landet i fem år under andre verdenskrig.Etter de tyske styrkene i Norge kapitulerte 8. mai ble landet okkupert av allierte (britiske og amerikanske) styrker til … Winston har hatt svært mange oppføringer, og da første verdenskrig begynte, hadde han utsatt for marineminister. Winston Leonard Spencer Churchill ble født i 1874 i Oxfordshire i England.  8vo. Det Churchill sier her, er at alt som har fantes av såkalte revolusjoner fra og med den franske, har vært styrt av underjordiske (skjulte) krefter i de store byene i Europa og USA. Vidkun Quisling Vidkun Abrahm Lauritz Jonssøn Quisling. Churchill hadde ofte depresjon og drakk mye alkohol, og han innrømmet seg selv da han var 91 år gammel. Ung gigant - Winston Churchill og opptakten til første verdenskrig has 16 ratings and 1 review. Fugler på verdens mynter KONGENS «JA» ALT OM DE NYE KONGEPORTRETTENE Storslåtte minnemynter med dybdepreg Belagt med rent sølv og … Han var en britisk politiker som hovedsakelig er kjent for sitt lederskap av Storbritannia under andre verdenskrig. Churchill War Rooms er et museum som omfatter komplekse underjordiske bunkerser hvor daværende statsminister Winston Churchill styrte de Britiske troppene fra. Sep 1, 1939. Det startet med at tidlig i 1941 oppholdt Harry Hopkins, en av Roosevelts nære medarbeidere, seg en måned i Storbritannia, og det gode forholdet han fikk til Churchill i løpet av dette oppholdet gjorde til at Hopkins ble et avgjørende bindeledd mellom Churchill og Roosevelt. Winston Churchill i “Zionism versus Bolshevism”, Sunday Herald, februar 1920. xix + 938 + (2) s. Orig. Født: 18 juli i Fyresdal i Telemark. 1 Sir WINSTON CHURCHILL Krigslegenden hedret på storslåtte minnemynter med dybdepreg FOR SAMLERGLADE OM SAMLERGLEDE N r Jeg har ingenting annet å tilby enn blod, slit, svette og tårer Sir Winston Churchill 2-øringen som «ikke fantes»! 2. verdenskrig! ... Churchill blir statsminister i Storbritannia Winston Churchills tale i parlamentet 4.juni 1940 sier mye om hvilken innstilling britene hadde hadde i kampen mot tyskerne. 2. verdenskrig Timeline created by efjjj. Random House New York 1996. I 1953 fikk han nobelprisen i litteratur for sine bøker om britisk historie og andre verdenskrig. "-we shall never surrender..." Winston Churchill Hitler hadde sommeren 1940 okkupert land i hele Vest- og Nord-Europa (Frankrike, Norge, Østerrike, Polen, Tsjekkoslovakia), men han hadde enda ikke klart å slå britene. Churchill War Rooms er en del av Imperial War Museum som omfatter flere museumer for krigen. Winston Churchill & Neville Chamberlain Fra Frankrike Charles André Joseph Marie de Gaulle italia Benito Mussolini Norge ... Det var han som forårsaket den japanske deltagelsen i 2.verdenskrig. omslag. Norman Polmar and Thomas B. Allen: World War II. Visste du at: Churchill var statsminister i Storbritannia under andre verdenskrig og er regnet som en av de viktigste lederne i moderne tid. Etter at Hitler hadde okkupert land i hele vest og nord Europa. ";s:7:"keyword";s:31:"winston churchill 2 verdenskrig";s:5:"links";s:7976:"<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=captain-marvel-avengers'>Captain Marvel Avengers</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=sponsing-som-gave'>Sponsing Som Gave</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=free-mods-for-minecraft-pc'>Free Mods For Minecraft Pc</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=tyrifjord-hotell-p%C3%A5skelunsj'>Tyrifjord Hotell Påskelunsj</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=avl%C3%B8serord'>Avløserord</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=behindthename-surnames'>Behindthename Surnames</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=deadpool-2-release-date-norge'>Deadpool 2 Release Date Norge</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=finner-ikke-bluetooth-enhet-iphone-7'>Finner Ikke Bluetooth Enhet Iphone 7</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=%C3%B8rjan-nordhus-karlsson-sharba'>ørjan Nordhus Karlsson Sharba</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=stellaris-reddit'>Stellaris Reddit</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=santander-bill%C3%A5n-kundeservice'>Santander Billån Kundeservice</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=hvor-overvintrer-r%C3%B8dnebbterne'>Hvor Overvintrer Rødnebbterne</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=hva-er-provinser%3F'>Hva Er Provinser?</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=hvor-ligger-pyreneene'>Hvor Ligger Pyreneene</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=snitt-vgs-b%C3%A6rum-2017'>Snitt Vgs Bærum 2017</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=icebreaker-leker'>Icebreaker Leker</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=nintendo-switch-backpack'>Nintendo Switch Backpack</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=titanic-film-aldersgrense'>Titanic Film Aldersgrense</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=playstation-4-pro-fortnite'>Playstation 4 Pro Fortnite</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=psykologi-vg2'>Psykologi Vg2</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=when-does-party-season-start-in-ibiza'>When Does Party Season Start In Ibiza</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=pokimane-go'>Pokimane Go</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=fifa-18-world-cup-cards'>Fifa 18 World Cup Cards</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=rayman-legends-coop'>Rayman Legends Coop</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=tegnordbok'>Tegnordbok</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=skiptvet-kommune-ledige-stillinger'>Skiptvet Kommune Ledige Stillinger</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=dr-mobil-str%C3%B8mmen'>Dr Mobil Strømmen</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=super-mario-world-play-online'>Super Mario World Play Online</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=reisedager-nettbuss'>Reisedager Nettbuss</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=asus-drivers-motherboard'>Asus Drivers Motherboard</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=how-many-seasons-of-westworld'>How Many Seasons Of Westworld</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=adblock-edge'>Adblock Edge</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=mmr-for-diamond'>Mmr For Diamond</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=steam-link-test'>Steam Link Test</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=conversion-factor'>Conversion Factor</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=h%C3%B8gskolen-p%C3%A5-vestlandet'>Høgskolen På Vestlandet</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=jessheim-kino'>Jessheim Kino</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=timel%C3%B8nn-barnehageassistent-2018'>Timelønn Barnehageassistent 2018</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=sunwell-wrath'>Sunwell Wrath</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=kj%C3%B8pe-film-p%C3%A5-nett'>Kjøpe Film På Nett</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=jobb-troms%C3%B8-finn'>Jobb Tromsø Finn</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=logitech-orion-810'>Logitech Orion 810</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=bf4-battlelogs'>Bf4 Battlelogs</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=nedbetale-kryssord'>Nedbetale Kryssord</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=caravelle-russebil'>Caravelle Russebil</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=paris-tips-restaurant'>Paris Tips Restaurant</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=the-best-romantic-movies-of-all-time'>The Best Romantic Movies Of All Time</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=moonlight-handling'>Moonlight Handling</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=diep-io-play'>Diep Io Play</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=regneregn'>Regneregn</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=oscar-for-beste-artistiske-produksjon'>Oscar For Beste Artistiske Produksjon</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=J%C3%B8rgen-%2B-Anne-%3D-sant'>Jørgen + Anne = Sant</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=nordland-fylkeskommune-ansatte'>Nordland Fylkeskommune Ansatte</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=reisebrev-roma'>Reisebrev Roma</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=nexon-forgot-password'>Nexon Forgot Password</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=nintendo-switch-best-multiplayer-games'>Nintendo Switch Best Multiplayer Games</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=skiskyting-kollen-2018'>Skiskyting Kollen 2018</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=toughest-oslo-2017-resultater'>Toughest Oslo 2017 Resultater</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=sonos-boost'>Sonos Boost</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=liste-over-norske-forfattere'>Liste Over Norske Forfattere</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=poenggrense-helses%C3%B8ster-ntnu'>Poenggrense Helsesøster Ntnu</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=new-girl-season-2'>New Girl Season 2</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=golden-retriever-vekt-hunndyr%3A-25%E2%80%9332-kg'>Golden Retriever Vekt Hunndyr: 25–32 Kg</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=oscars-stream'>Oscars Stream</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=hva-er-presentasjon-i-en-film'>Hva Er Presentasjon I En Film</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=alv%C3%B8en-papirfabrikk'>Alvøen Papirfabrikk</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=brundalen-skole-helses%C3%B8ster'>Brundalen Skole Helsesøster</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=aksel-hennie-kj%C3%A6reste'>Aksel Hennie Kjæreste</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=tannlege-forsikring-lo'>Tannlege Forsikring Lo</a>,
+";s:7:"expired";i:-1;}

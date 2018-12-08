@@ -1,0 +1,535 @@
+a:5:{s:8:"template";s:8503:"<!DOCTYPE html>
+<html lang="nb-NO">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<link href="http://gmpg.org/xfn/11" rel="profile"/>
+
+<title>{{ keyword }}</title>
+
+<style id="colormag_style-css" media="all" rel="stylesheet" type="text/css">
+
+html, body, div, span, h3, h4, p, a, ul, li {
+	border: 0;
+	font: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+html {
+	overflow-y: scroll; 
+	-webkit-text-size-adjust: 100%; 
+	-ms-text-size-adjust: 100%; 
+}
+footer,
+header,
+nav {
+	display: block;
+}
+ul {
+	list-style: none;
+}
+a:focus {
+	outline: thin dotted;
+}
+a:hover,
+a:active {
+	outline: 0;
+}
+
+body {
+	color: #444444;
+	font: 16px 'Open Sans', serif;
+	line-height: 1.6;
+	word-wrap: break-word;
+}
+body {
+	background-color: #eaeaea;
+}
+/* Headings */
+h3, h4 {
+	padding-bottom: 18px;
+	color: #333333;
+	font-weight: normal;
+	font-family: 'Open Sans', sans-serif;
+}
+h3 { font-size: 34px; line-height: 1.2; }
+h4 { font-size: 30px; line-height: 1.2; }
+
+/* =TEXT ELEMENTS
+----------------------------------------------- */
+p {
+	line-height: 1.6;
+	margin-bottom: 15px;
+	font-family: 'Open Sans', serif;
+	font-size: 15px;
+}
+i {
+	font-style: italic;
+}
+
+ul {
+	list-style: none;
+}
+li > ul {
+	margin: 0 0 0 10px;
+}
+
+a {
+	color: #289dcc;
+	text-decoration: none;
+}
+a:focus, a:active, a:hover {
+	text-decoration: none;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.clearfix {
+	display: inline-block;
+}
+.clearfix {
+	display: block;
+}
+
+body {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-size: cover;
+}
+#page {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.wide {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.wide #page {
+	max-width: 100%;
+}
+.inner-wrap {
+	margin: 0 auto;
+	max-width: 1140px;
+}
+
+#masthead {
+}
+#header-text-nav-container {
+	background-color: #FFFFFF;
+}
+#header-text-nav-wrap {
+	padding: 20px 0 25px;
+}
+#header-left-section {
+	float: left;
+}
+#header-text {
+	float: left;
+	padding-right: 20px;
+}
+#site-title {
+	padding-bottom: 0;
+	line-height: 1.2;
+}
+#site-title a {
+	color: #289dcc;
+	font-size: 46px;
+}
+#site-description {
+	line-height: 24px;
+	font-size: 16px;
+	color: #666666;
+	padding-bottom: 0px;
+	font-family: 'Open Sans', serif;
+}
+#header-right-section {
+	float: right;
+}
+
+.fa {
+	font-size: 22px;
+	color: #CCCCCC;
+}
+
+
+nav li > ul {
+	margin: 0;
+	list-style: none;
+}
+#site-navigation {
+   box-shadow: 0 0 2px rgba(0, 0, 0, 0.1) inset;
+   position: relative;
+   background-color: #232323;
+   border-top: 4px solid #289dcc;
+}
+#site-navigation .inner-wrap {
+   position: relative;
+}
+.main-navigation {
+	width: 100%;
+	text-align: center;
+}
+.main-navigation li {
+	float: left;
+	position: relative;
+	font-family: 'Open Sans', serif;
+	font-weight: 300;
+}
+.main-navigation a {
+   color: #ffffff;
+	display: block;
+	float: none;
+	font-size: 14px;
+   font-weight: 600;
+	padding: 10px 12px;
+   text-transform: uppercase;
+}
+.main-navigation a:hover,
+.main-navigation ul li:hover > a {
+}
+.main-navigation a:hover,
+.main-navigation ul li:hover > a {
+	color: #ffffff;
+}
+.main-navigation a:hover,
+.main-navigation ul li:hover > a {
+   background-color: #289dcc;
+}
+.main-navigation li.page_item_has_children > a:after {
+   font-family: FontAwesome;
+   font-style: normal;
+   font-weight: normal;
+   text-decoration: inherit;
+   color: #ffffff;
+   font-size: 14px;
+   padding-left: 6px;
+}
+.main-navigation li.page_item_has_children > a:after {
+   content: "\f107";
+   color: #ffffff;
+}
+/* =DROP DOWN
+----------------------------------------------- */
+.main-navigation .children {
+   background-color: #232323;
+}
+.main-navigation ul li ul {
+	display:none;
+	z-index: 100;
+}
+.main-navigation ul li:hover ul {
+	display:block;
+}
+.main-navigation ul li ul {
+	position: absolute;
+	width: 200px;
+	top: 42px;
+}
+.main-navigation ul li ul li {
+	float: none;
+}
+.main-navigation ul li ul li a {
+   border-top: none;
+}
+.main-navigation ul li ul li a {
+	float: none;
+	font-size: 14px;
+	height: 100%;
+	padding: 10px 15px;
+	color: #ffffff;
+	width: 170px;
+   text-align: left;
+   text-transform: none;
+}
+.main-navigation ul li ul li a:hover,
+.main-navigation ul li ul li:hover > a {
+   color: #FFFFFF;
+   background-color: #289dcc;
+}
+
+/* =RESPONSIVE MENU
+----------------------------------------------- */
+.menu-toggle {
+	display: none;
+	cursor: pointer;
+}
+.site-header .menu-toggle {
+	color: #ffffff;
+	margin: 0;
+	text-align: center;
+	font-family: 'Open Sans', serif;
+   padding-bottom: 0;
+}
+.site-header .menu-toggle:hover {
+   background-color: #289dcc;
+}
+.site-header .menu-toggle:before {
+	content: "\f0c9";
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: inherit;
+	font-size: 23px;
+	color: #ffffff;
+   padding: 8px 12px;
+   display: block;
+}
+
+#main {
+	padding-top: 30px;
+	padding-bottom: 20px;
+	background-color: #ffffff;
+}
+
+#colophon {
+	font-size: 14px;
+	line-height: 1.4;
+}
+
+
+.footer-socket-wrapper {
+   padding: 20px 0px 50px;
+   background-color: #303440;
+}
+.footer-socket-area {
+   width: 100%;
+}
+.footer-socket-right-section {
+   float: right;
+}
+.footer-socket-wrapper .copyright {
+   color: #b1b6b6;
+   float: left;
+   font-size: 14px;
+   max-width: 50%;
+}
+.footer-socket-wrapper .copyright a {
+   color: #b1b6b6;
+   border-bottom: 1px solid #5a5d62;
+}
+.footer-socket-wrapper .copyright a:hover {
+   color: #ffffff;
+}
+
+/* =SCROLL UP
+----------------------------------------------- */
+a#scroll-up {
+	bottom: 20px;
+	position: fixed;
+	right: 20px;
+	display: none;
+	opacity: 0.5;
+	filter:alpha(opacity=50); /* For IE8 and earlier */
+}
+a#scroll-up i {
+	font-size: 40px;
+	color: #289dcc;
+}
+a#scroll-up:hover {
+	opacity: 1;
+	filter:alpha(opacity=100); /* For IE8 and earlier */
+}
+
+
+/* Sharing Section */
+#site-navigation {
+   z-index: 999;
+}
+
+/* Gallery Post Format */
+
+
+/*--------------------------------------------------------------
+Responsive Structure
+--------------------------------------------------------------*/
+@media screen and (max-width: 1190px) {
+   #page {
+      width: 97%;
+   }
+   .wide #page {
+      width: 100%;
+   }
+   .inner-wrap {
+      width: 94%;
+   }
+}
+@media screen and (max-width:768px) {
+   #header-text-nav-wrap {
+      padding: 10px 0;
+   }
+   #header-left-section {
+      float: none;
+      margin-bottom: 10px;
+   }
+   #header-text {
+      float: none;
+      text-align: center;
+      padding-right: 0;
+   }
+   #header-right-section {
+      float: none;
+   }
+   .menu-toggle {
+      display: block;
+      float: left;
+   }
+   .main-navigation ul {
+      display: none;
+   }
+}
+@media screen and (max-width: 600px) {
+   .footer-socket-right-section {
+      float: none;
+      text-align: center;
+   }
+   .footer-socket-wrapper .copyright {
+      float: none;
+      max-width: 100%;
+      text-align: center;
+   }
+}
+</style>
+
+</head>
+<body class=" wide">
+<div class="hfeed site" id="page">
+<header class="site-header clearfix" id="masthead">
+<div class="clearfix" id="header-text-nav-container">
+<div class="inner-wrap">
+<div class="clearfix" id="header-text-nav-wrap">
+<div id="header-left-section">
+<div class="" id="header-text">
+<h3 id="site-title">
+<a href="#" rel="home" title="{{ keyword }}">{{ keyword }}</a>
+</h3>
+<p id="site-description">Advice !!</p>
+
+</div>
+</div>
+<div id="header-right-section">
+</div>
+</div>
+</div>
+<nav class="main-navigation clearfix" id="site-navigation" role="navigation">
+<div class="inner-wrap clearfix">
+<h4 class="menu-toggle"></h4>
+<div class="menu">
+<ul>
+<li class="page_item page-item-46"><a href="#">insurance</a></li>
+<li class="page_item page-item-35"><a href="#">Contact</a></li>
+<li class="page_item page-item-66"><a href="#">Home</a></li>
+<li class="page_item page-item-18"><a href="#">Student </a></li>
+<li class="page_item page-item-4"><a href="#">Travel</a></li>
+</ul></div>
+</div>
+</nav>
+</div>
+</header>
+<div class="clearfix" id="main">
+<div class="inner-wrap clearfix">
+{{ text }}
+
+		</div>
+</div>
+<footer class="clearfix" id="colophon">
+<div class="footer-socket-wrapper clearfix">
+<div class="inner-wrap">
+{{ links }}
+<div class="footer-socket-area">
+<div class="footer-socket-right-section">
+</div>
+<div class="footer-socket-left-sectoin">
+<div class="copyright">Copyright  2018 <a href="#" title="{{ keyword }}"><span>{{ keyword }}</span></a>. All rights reserved.</div> </div>
+</div>
+</div>
+</div>
+</footer>
+<a href="#" id="scroll-up"><i class="fa fa-chevron-up"></i></a>
+</div>
+
+
+</body>
+</html>";s:4:"text";s:6980:"Her kan du følge med på hva som skjer gjennom hele jubileumsåret! Begge har fått avslag på søknadene sine, både i fjor og i år. Information about Fagutvalget for psykologi UIO, Oslo. I 2018 feirer universitetet 50 år. Publikasjoner i 2016 og 2017 Hjem Byer Land. PRISM ble oversatt til norsk av psykiater Valborg Helseth i 2006, finansiert av Senter for rus- og avhengighetsforskning (SERAF) ved UiO og Nasjonal kompetansetjeneste for samtidig rusmisbruk og psykisk lidelse (NK-ROP). Machiavellisme refererer til bruken av sluhet og falskhet innen politikk eller i generell oppførsel, samt en politisk skruppelløshet. Finn ansatte og studenter ved Fysisk institutt. Alt du trenger å vite om eksamen ved UiT . Er du nysgjerrig på hvorfor mennesker tenker og handler slik de gjør? Forskning. Forskning ved UiT. UiO UiO Universitetet i Oslo Det odontologiske fakultet. Les forskningssaker fra UiT. Healing og psykologi: Kvakksalveri ved UiO. For å bli psykolog må du velge profesjonsstudiet i psykologi. – Sosiale forskjeller truer rettsstaten. En av informantene hevder at det eksisterer et slikt miljø, men at det er opp til den enkelte og praktisere slik refleksiv forskning.  2017. Job descriptionApplications are invited for a permanent position as associate professor in protein biochemistry at the Department of Biosciences.The successful candidate should be an active researcher with a strong publication record for an associate professorship within the field of biochemistry and molecular biology. 26/08/2018 · Forsiden UiO Universitetsbiblioteket. Du har fri tilgang til våre ressurser fra UiO/OUS-nettet. Din anonymitet beskytter ikke deg, men barnevernet. PALS modellen og psykiske helse. epost@forskning.no Ansvarlig redaktør / daglig leder: Nina Kristiansen • Redaksjonen • ©forskning.no 2010 • Redaktørplakaten Annonser: Mediapilotene - Arnt-Ove Drageset, 92 … EGNE BØKER, ARTIKLER, NETTSTEDER OG ANNET OM DEMONOLOGI, TROLLDOM OG HEKSEPROSESSER Publikasjoner i 2018: Trolldomskriminalitet i nord, kronikk i Nordlys 20/6, s.4-5. Seminar Fredrikstad; Sagabakken skole. 2. januar. PALS modellen og psykiske helse. 2. januar. Sosialpsykologi er egentlig en blanding av sosiologi og psykologi, men jeg skal fokusere på den delen av sosialpsykologi som handler om psykologi. The importance of social recognition for the sense of personal identity and mental health is distinctly experienced only at the moment when recognition is denied. Slik får du tilgang hjemmefra (for studenter og ansatte på UiO). APA-komiteen definerer evidensbasert praksis slik: Evidensbasert praksis i psykologi (EBPP) er integrasjonen av den beste tilgjengelige forskning med klinisk ekspertise, i kontekst av pasientens egenskaper, kultur og preferanser (Levant, 2005, min oversettelse). Heksenes Sankthansfest i Nemi Shabash, Sommeralbum 2018, s.70-73. 1. februar. Leter du etter en med fagkunnskap? Mer betydningsfullt er hvorvidt de får oppleve at det nye omsorgsarrangementet gir muligheten for emosjonell trygghet. UiO har ledende forskningsmiljøer og landets bredeste studietilbud. Både UiO og UiB har tidligere år søkt Kunnskapsdepartementet om kvotering av menn til medisinstudiet og en femårig prøveordning med kjønnskvotering av menn til profesjonsstudiet i psykologi. (Kjell Skogen, professor emeritus, UiO, Bedre skole 2, 2014) ..... Erling Roland er professor i pedagogisk psykologi og arbeider ved Nasjonalt senter for læringsmiljø og atferdsforskning ved Universitetet i … Trenger du mer hjelp til informasjonssøk - ta kontakt med biblioteket! Finn fram til UiOs forskning, forskere, forskningsprosjekter, forskergrupper og informasjon om doktorgrad og forskerkarriere. Forskerutdanning: Ph.d. UiO har det største juridiske fakultetet i Norge. Hjem > Norway ... Vi tilbyr spennede studier og driver forskning innen teoretisk og anvendt matematikk, statistikk og mekanikk. En norsk studie utført ved Universitetet i Oslo (UiO) viser at til og med i et av verdens mest likestilte land, ser fordommene ut til å leve i beste velgående. Psychol, som er grunnlag for å få autorisasjon som psykolog. Klasseledelse ; Teori og kunnskap for praksis. 1. februar. Psykiatriveka ble første gang arrangert i Trondheim i 2006 og er Norsk psykiatrisk forening (Npf) sin årlige faguke med årsmøte og ulike videre-og etterutdanningskurs for psykiatere og leger i spesialisering. Lurer du på hva forskerne våre gjør eller hva de kan svare på? Seminar Fredrikstad; Sagabakken skole. (- Advokatene har et samfunnsansvar. Føler du deg urettferdig behandlet av barnevernet? Atskillelsen som barn utsettes for i forbindelse med samlivsbrudd, er i seg selv ikke avgjørende for deres senere psykiske helse. Oslo University Aula Oslo . Nytt fra UiT. Søk på navn eller fag- og arbeidsområde . (Kjell Skogen, professor emeritus, UiO, Bedre skole 2, 2014) Erling Roland er professor i pedagogisk psykologi og arbeider ved Nasjonalt senter for læringsmiljø og atferdsforskning ved Universitetet i … Universitetet i Oslo er det eldste og høyest rangerte universitetet i Norge. Professortittel. Karakterpoeng er gjennomsnittskarakteren fra videregående ganget med ti (har du 4,5 i snitt blir det 45 poeng). Utvikling av PRISM i Norge. Klasseledelse ; Teori og kunnskap for praksis. 53 51 02 11 - Gruppen til Familiens Selvstendige Rett - Advokatbransjen er en konservativ bransje preget av kollegial lojalitet. Ring Mona Lygre, tlf. Ta en gruppe med deprimerte og mål depresjonsgraden. ... Bevisene skaffer du best ved kvalitetssikret forskning. En student ved UiO, som tidligere har hatt professorstilling og selv drevet undervisning, har blitt erklært uskikket for profesjonen han studerer. Universitetet har over 27 000 studenter og 6000 ansatte. Curt Rice ved OsloMet håper det ikke kommer penger til utviklingsavtalene, mens Svein Stølen ved UiO mener det er et paradoks at de har lavest budsjettvekst. Og som forskningspodcast fra UiT-Norges arktiske universitet. Dale (1993) hevder at det er viktig og skape et miljø for en slik refleksiv forskning på arbeidsplassen. Institutt for biologisk og medisinsk psykologi ; ... Forskning i front. Opptakskravene til høyere utdannelse regnes i poeng, og deles inn i en ordinær kvote og en kvote for førstegangsvitnemål. Finn ut hvem som forsker på hva. Profesjonsstudiet i psykologi har en varighet på seks år og leder frem til graden Cand. Curt Rice ved OsloMet håper det ikke kommer penger til utviklingsavtalene, mens Svein Stølen ved UiO mener det er et paradoks at de har lavest budsjettvekst. NHO og LO får liten støtte for sitt forslag om å ta praksisprofessorer uten professorkompetanse inn i akademia. Pensum Psykologi UiO has 2,048 members. Dersom du studerer psykologi som fag (ikke profesjonsstudiet) kan du jobbe med for eksempel konsulentarbeid, organisasjons- og ledelsesutvikling, eller undervisning og forskning. 2017. Bare NHO vil ha praksisprofessorer. ";s:7:"keyword";s:23:"uio psykologi forskning";s:5:"links";s:8302:"<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=platekompaniet-trondheim-%C3%A5pningstider'>Platekompaniet Trondheim åpningstider</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=clas-ohlson-bergen'>Clas Ohlson Bergen</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=utsatt-eksamen-uio-hf'>Utsatt Eksamen Uio Hf</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=conan-exiles-named-thralls'>Conan Exiles Named Thralls</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=bora-bora-reise'>Bora Bora Reise</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=svanger-kryssord'>Svanger Kryssord</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=bachelor-i-pedagogikk-deltid'>Bachelor I Pedagogikk Deltid</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=trond-fausa-aurv%C3%A5g-filmer-og-tv-programmer'>Trond Fausa Aurvåg Filmer Og Tv Programmer</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=money-heist-trailer'>Money Heist Trailer</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=zakynthos-med-barn'>Zakynthos Med Barn</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=prefiks-kryssord-synonym'>Prefiks Kryssord Synonym</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=tv-2-sumo-app-virker-ikke'>Tv 2 Sumo App Virker Ikke</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=taleopptak-iphone'>Taleopptak Iphone</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=gratulerer-med-dagen-noter-piano'>Gratulerer Med Dagen Noter Piano</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=iphone-6-64gb-elkj%C3%B8p'>Iphone 6 64gb Elkjøp</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=h%C3%B8gskulen-i-volda-biblioteket'>Høgskulen I Volda Biblioteket</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=f%C3%B8dsel-i-vann-video'>Fødsel I Vann Video</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=hearthstone-reddit'>Hearthstone Reddit</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=%C3%B8gle-tegning'>øgle Tegning</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=rund-stokk-kryssord'>Rund Stokk Kryssord</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=star-trek-discovery-return-date'>Star Trek Discovery Return Date</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=express-vpn-chrome'>Express Vpn Chrome</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=razer-chroma-rgb-keyboard'>Razer Chroma Rgb Keyboard</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=windows-iso-10'>Windows Iso 10</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=r%C3%B8dberg'>Rødberg</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=minecraft-redstone-wikipedia'>Minecraft Redstone Wikipedia</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=blade-runner-2018'>Blade Runner 2018</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=netflix-app-android-not-compatible'>Netflix App Android Not Compatible</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=psykologi-%C3%A5rsstudium-snitt'>Psykologi årsstudium Snitt</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=fysioterapi-mensendieck-forskjell'>Fysioterapi Mensendieck Forskjell</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=crash-bandicoot%3A-the-wrath-of-cortex'>Crash Bandicoot: The Wrath Of Cortex</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=the-foreigner-review'>The Foreigner Review</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=rolig-musikk'>Rolig Musikk</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=for-dummies-b%C3%B8ker-p%C3%A5-norsk'>For Dummies Bøker På Norsk</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=engelsk-nettstudie-2017'>Engelsk Nettstudie 2017</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=over-kryssord'>Over Kryssord</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=icloud-sikkerhetskopi-mac'>Icloud Sikkerhetskopi Mac</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=fronter-midtbygda'>Fronter Midtbygda</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=ekstra-nyhetssending-22-juli-2011'>Ekstra Nyhetssending 22 Juli 2011</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=Ally-McBeal'>Ally McBeal</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=where-to-farm-tellurium-warframe'>Where To Farm Tellurium Warframe</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=p2p4-first-row-sports'>P2p4 First Row Sports</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=natt-og-dag-uteliv'>Natt Og Dag Uteliv</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=signalkvalitet-parabol'>Signalkvalitet Parabol</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=uis-studentnummer'>Uis Studentnummer</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=Company-of-Heroes-2'>Company Of Heroes 2</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=the-greatest-strategy-games-of-all-time'>The Greatest Strategy Games Of All Time</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=geir-amundsen'>Geir Amundsen</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=eplehuset-mac'>Eplehuset Mac</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=eksklusive-sjakkbrett'>Eksklusive Sjakkbrett</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=dunkirk-norway'>Dunkirk Norway</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=electronic-signature'>Electronic Signature</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=reactivate-wow-account-free'>Reactivate Wow Account Free</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=car-mods-fs17'>Car Mods Fs17</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=paladins-free-download-windows'>Paladins Free Download Windows</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=sivilingeni%C3%B8r-tittel'>Sivilingeniør Tittel</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=sveriges-lengste-ord'>Sveriges Lengste Ord</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=the-best-romantic-movies-of-all-time'>The Best Romantic Movies Of All Time</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=insekt-kryssord'>Insekt Kryssord</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=ben-mendelsohn-star-wars'>Ben Mendelsohn Star Wars</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=Lay-It-On-Me'>Lay It On Me</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=mef-l%C3%B8nnsoppgj%C3%B8r-2017'>Mef Lønnsoppgjør 2017</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=Pathfinder'>Pathfinder</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=bindemiddelet-kryssord'>Bindemiddelet Kryssord</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=steelseries-siberia-820'>Steelseries Siberia 820</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=disney-store-sverige'>Disney Store Sverige</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=reaksjonstid-med-linjal'>Reaksjonstid Med Linjal</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=barnehageplass-trondheim-januar'>Barnehageplass Trondheim Januar</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=godkjent-infanterist-krav'>Godkjent Infanterist Krav</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=banerekord-v%C3%A5lerbanen'>Banerekord Vålerbanen</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=uio-studentmilj%C3%B8'>Uio Studentmiljø</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=safe-exam-browser-2.1-8'>Safe Exam Browser 2.1 8</a>,
+";s:7:"expired";i:-1;}

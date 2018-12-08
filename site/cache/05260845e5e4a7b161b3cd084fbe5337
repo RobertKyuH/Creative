@@ -1,0 +1,545 @@
+a:5:{s:8:"template";s:8503:"<!DOCTYPE html>
+<html lang="nb-NO">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<link href="http://gmpg.org/xfn/11" rel="profile"/>
+
+<title>{{ keyword }}</title>
+
+<style id="colormag_style-css" media="all" rel="stylesheet" type="text/css">
+
+html, body, div, span, h3, h4, p, a, ul, li {
+	border: 0;
+	font: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+html {
+	overflow-y: scroll; 
+	-webkit-text-size-adjust: 100%; 
+	-ms-text-size-adjust: 100%; 
+}
+footer,
+header,
+nav {
+	display: block;
+}
+ul {
+	list-style: none;
+}
+a:focus {
+	outline: thin dotted;
+}
+a:hover,
+a:active {
+	outline: 0;
+}
+
+body {
+	color: #444444;
+	font: 16px 'Open Sans', serif;
+	line-height: 1.6;
+	word-wrap: break-word;
+}
+body {
+	background-color: #eaeaea;
+}
+/* Headings */
+h3, h4 {
+	padding-bottom: 18px;
+	color: #333333;
+	font-weight: normal;
+	font-family: 'Open Sans', sans-serif;
+}
+h3 { font-size: 34px; line-height: 1.2; }
+h4 { font-size: 30px; line-height: 1.2; }
+
+/* =TEXT ELEMENTS
+----------------------------------------------- */
+p {
+	line-height: 1.6;
+	margin-bottom: 15px;
+	font-family: 'Open Sans', serif;
+	font-size: 15px;
+}
+i {
+	font-style: italic;
+}
+
+ul {
+	list-style: none;
+}
+li > ul {
+	margin: 0 0 0 10px;
+}
+
+a {
+	color: #289dcc;
+	text-decoration: none;
+}
+a:focus, a:active, a:hover {
+	text-decoration: none;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.clearfix {
+	display: inline-block;
+}
+.clearfix {
+	display: block;
+}
+
+body {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-size: cover;
+}
+#page {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.wide {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.wide #page {
+	max-width: 100%;
+}
+.inner-wrap {
+	margin: 0 auto;
+	max-width: 1140px;
+}
+
+#masthead {
+}
+#header-text-nav-container {
+	background-color: #FFFFFF;
+}
+#header-text-nav-wrap {
+	padding: 20px 0 25px;
+}
+#header-left-section {
+	float: left;
+}
+#header-text {
+	float: left;
+	padding-right: 20px;
+}
+#site-title {
+	padding-bottom: 0;
+	line-height: 1.2;
+}
+#site-title a {
+	color: #289dcc;
+	font-size: 46px;
+}
+#site-description {
+	line-height: 24px;
+	font-size: 16px;
+	color: #666666;
+	padding-bottom: 0px;
+	font-family: 'Open Sans', serif;
+}
+#header-right-section {
+	float: right;
+}
+
+.fa {
+	font-size: 22px;
+	color: #CCCCCC;
+}
+
+
+nav li > ul {
+	margin: 0;
+	list-style: none;
+}
+#site-navigation {
+   box-shadow: 0 0 2px rgba(0, 0, 0, 0.1) inset;
+   position: relative;
+   background-color: #232323;
+   border-top: 4px solid #289dcc;
+}
+#site-navigation .inner-wrap {
+   position: relative;
+}
+.main-navigation {
+	width: 100%;
+	text-align: center;
+}
+.main-navigation li {
+	float: left;
+	position: relative;
+	font-family: 'Open Sans', serif;
+	font-weight: 300;
+}
+.main-navigation a {
+   color: #ffffff;
+	display: block;
+	float: none;
+	font-size: 14px;
+   font-weight: 600;
+	padding: 10px 12px;
+   text-transform: uppercase;
+}
+.main-navigation a:hover,
+.main-navigation ul li:hover > a {
+}
+.main-navigation a:hover,
+.main-navigation ul li:hover > a {
+	color: #ffffff;
+}
+.main-navigation a:hover,
+.main-navigation ul li:hover > a {
+   background-color: #289dcc;
+}
+.main-navigation li.page_item_has_children > a:after {
+   font-family: FontAwesome;
+   font-style: normal;
+   font-weight: normal;
+   text-decoration: inherit;
+   color: #ffffff;
+   font-size: 14px;
+   padding-left: 6px;
+}
+.main-navigation li.page_item_has_children > a:after {
+   content: "\f107";
+   color: #ffffff;
+}
+/* =DROP DOWN
+----------------------------------------------- */
+.main-navigation .children {
+   background-color: #232323;
+}
+.main-navigation ul li ul {
+	display:none;
+	z-index: 100;
+}
+.main-navigation ul li:hover ul {
+	display:block;
+}
+.main-navigation ul li ul {
+	position: absolute;
+	width: 200px;
+	top: 42px;
+}
+.main-navigation ul li ul li {
+	float: none;
+}
+.main-navigation ul li ul li a {
+   border-top: none;
+}
+.main-navigation ul li ul li a {
+	float: none;
+	font-size: 14px;
+	height: 100%;
+	padding: 10px 15px;
+	color: #ffffff;
+	width: 170px;
+   text-align: left;
+   text-transform: none;
+}
+.main-navigation ul li ul li a:hover,
+.main-navigation ul li ul li:hover > a {
+   color: #FFFFFF;
+   background-color: #289dcc;
+}
+
+/* =RESPONSIVE MENU
+----------------------------------------------- */
+.menu-toggle {
+	display: none;
+	cursor: pointer;
+}
+.site-header .menu-toggle {
+	color: #ffffff;
+	margin: 0;
+	text-align: center;
+	font-family: 'Open Sans', serif;
+   padding-bottom: 0;
+}
+.site-header .menu-toggle:hover {
+   background-color: #289dcc;
+}
+.site-header .menu-toggle:before {
+	content: "\f0c9";
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: inherit;
+	font-size: 23px;
+	color: #ffffff;
+   padding: 8px 12px;
+   display: block;
+}
+
+#main {
+	padding-top: 30px;
+	padding-bottom: 20px;
+	background-color: #ffffff;
+}
+
+#colophon {
+	font-size: 14px;
+	line-height: 1.4;
+}
+
+
+.footer-socket-wrapper {
+   padding: 20px 0px 50px;
+   background-color: #303440;
+}
+.footer-socket-area {
+   width: 100%;
+}
+.footer-socket-right-section {
+   float: right;
+}
+.footer-socket-wrapper .copyright {
+   color: #b1b6b6;
+   float: left;
+   font-size: 14px;
+   max-width: 50%;
+}
+.footer-socket-wrapper .copyright a {
+   color: #b1b6b6;
+   border-bottom: 1px solid #5a5d62;
+}
+.footer-socket-wrapper .copyright a:hover {
+   color: #ffffff;
+}
+
+/* =SCROLL UP
+----------------------------------------------- */
+a#scroll-up {
+	bottom: 20px;
+	position: fixed;
+	right: 20px;
+	display: none;
+	opacity: 0.5;
+	filter:alpha(opacity=50); /* For IE8 and earlier */
+}
+a#scroll-up i {
+	font-size: 40px;
+	color: #289dcc;
+}
+a#scroll-up:hover {
+	opacity: 1;
+	filter:alpha(opacity=100); /* For IE8 and earlier */
+}
+
+
+/* Sharing Section */
+#site-navigation {
+   z-index: 999;
+}
+
+/* Gallery Post Format */
+
+
+/*--------------------------------------------------------------
+Responsive Structure
+--------------------------------------------------------------*/
+@media screen and (max-width: 1190px) {
+   #page {
+      width: 97%;
+   }
+   .wide #page {
+      width: 100%;
+   }
+   .inner-wrap {
+      width: 94%;
+   }
+}
+@media screen and (max-width:768px) {
+   #header-text-nav-wrap {
+      padding: 10px 0;
+   }
+   #header-left-section {
+      float: none;
+      margin-bottom: 10px;
+   }
+   #header-text {
+      float: none;
+      text-align: center;
+      padding-right: 0;
+   }
+   #header-right-section {
+      float: none;
+   }
+   .menu-toggle {
+      display: block;
+      float: left;
+   }
+   .main-navigation ul {
+      display: none;
+   }
+}
+@media screen and (max-width: 600px) {
+   .footer-socket-right-section {
+      float: none;
+      text-align: center;
+   }
+   .footer-socket-wrapper .copyright {
+      float: none;
+      max-width: 100%;
+      text-align: center;
+   }
+}
+</style>
+
+</head>
+<body class=" wide">
+<div class="hfeed site" id="page">
+<header class="site-header clearfix" id="masthead">
+<div class="clearfix" id="header-text-nav-container">
+<div class="inner-wrap">
+<div class="clearfix" id="header-text-nav-wrap">
+<div id="header-left-section">
+<div class="" id="header-text">
+<h3 id="site-title">
+<a href="#" rel="home" title="{{ keyword }}">{{ keyword }}</a>
+</h3>
+<p id="site-description">Advice !!</p>
+
+</div>
+</div>
+<div id="header-right-section">
+</div>
+</div>
+</div>
+<nav class="main-navigation clearfix" id="site-navigation" role="navigation">
+<div class="inner-wrap clearfix">
+<h4 class="menu-toggle"></h4>
+<div class="menu">
+<ul>
+<li class="page_item page-item-46"><a href="#">insurance</a></li>
+<li class="page_item page-item-35"><a href="#">Contact</a></li>
+<li class="page_item page-item-66"><a href="#">Home</a></li>
+<li class="page_item page-item-18"><a href="#">Student </a></li>
+<li class="page_item page-item-4"><a href="#">Travel</a></li>
+</ul></div>
+</div>
+</nav>
+</div>
+</header>
+<div class="clearfix" id="main">
+<div class="inner-wrap clearfix">
+{{ text }}
+
+		</div>
+</div>
+<footer class="clearfix" id="colophon">
+<div class="footer-socket-wrapper clearfix">
+<div class="inner-wrap">
+{{ links }}
+<div class="footer-socket-area">
+<div class="footer-socket-right-section">
+</div>
+<div class="footer-socket-left-sectoin">
+<div class="copyright">Copyright  2018 <a href="#" title="{{ keyword }}"><span>{{ keyword }}</span></a>. All rights reserved.</div> </div>
+</div>
+</div>
+</div>
+</footer>
+<a href="#" id="scroll-up"><i class="fa fa-chevron-up"></i></a>
+</div>
+
+
+</body>
+</html>";s:4:"text";s:4795:"Hukommelsesteamets funksjon. Jeg har laget skjema Trail Making Test for bruk i Plenario. Psykologforeningens faglige veileder i førerkortsaker er utarbeidet for å gjøre psykologer bedre i stand til å overholde meldeplikten når pasientens helse svekker evnen til å opptre som sikker bilkjører.Psykologers plikt til å vurdere sider ved pasienters helse som kan ha betydning for evnen til å føre motorkjøretøy, følger av Helsepersonellovens § 34. TUG - Timed up and go. Her har jeg limt de to delene sammen. Gi oss tilbakemelding. 1 Trail-making test Instruks hentet fra Spreen & Strauss, 998 Oversettelse og digitalisering av Kolbjørn S. Brønnick Instruks Del A Eksempel Del A Plasser eksempeldelen for … Denne oppskriften vil gjøre 12 kopper trail mix, hvis alle ingrediensene er oppført er brukt. Førerkort – veileder til helsekrav (gjeldende fra 1. oktober 2016) Kognitiv svikt (§ 15 helsekrav til førerkort) I have left ¾” on each side, but of course you can make this as big or small you like. Legestudenter og Turnusleger i min praksis! Skjemaet inneholder også hvilke krav kreves for førerkort. Hun skåret 29 av 30 poeng på Mini Mental Status-evaluering (MMSE), mens resultatet på Trail Making Test A og B lå mellom 1 og 2 standardavvik under aldersgjennomsnittet. Bredt utvalg og gode priser på b&b-overnatting. Now glue the two parts together. It is pretty and can be used as … Også, de har en vanskelig tid å følge instruksjonene fra begynnelse til slutt. Magical stick with sparkles or rays isolated on white background. adventureland board game alice cooper paranormal cd Veldig braaccrual for piles 8. først ute med hydrogenbil honda toyota 639vurderinger. NORSK REVIDERT TRAIL MAKING TEST (TMT-NR3) Strobel, Johansen, Follesø, Rike & Schanke, 2016 Bakgrunnsinformasjon Trail Making Test (TMT) består av testene TMT- A og TMT- B. På norsk fins TMT i flere versjoner Separer trail mix inn dine ønskede porsjonsstørrelser, eller lagre den ferdige miksen for senere bruk. Modern brush ink calligraphy. Om nettsidene: Nettansvarlig: Leiv Otto Watne Vector cartoon style illustration for girl print design Just amazing. Motivation lettering, inscription, calligraphy design. Last ned. Klasse B gjelder internasjonalt for føring av motorvogn (unntatt motorsykkel og moped) med en tillatt totalvekt på høyst 3500 kg og som er godkjent for transport av høyst 8 passasjerer i tillegg til fører. Trail Making A; Trail Making B; Det finnes også andre tester som UFOV (testing av oppmerksomhet på pc) og NORSDA – førerkort testbatteri, men disse var ikke lett tilgjengelige på nett på norsk da artikkelen ble skrevet. Minstealderen for klasse B er 18 år. We have provided a printable paper folding template that you can print out, and then fold up, paste, and make a handle to finish it up. Med EPORTAL kan du også utføre E-DIALOGER / E-KONSULTASJONER: Myndighetene har innført eKonsultasjon som likeverdig til vanlig konsultasjon. Magic wand making a rainbow color trail and slogan Just Believe in Magic. Trail Making Test A (TMT-A) og B (TMT-B) er egnet til å avdekke svekkelser i psykomotorisk tempo, og evne til delt oppmerksomhet eller simultankapasitet. Deler av denne artikkelen har tidligere stått i PsykNytt 20.4.2015. Microsoft Azure Stack er en utvidelse av Azure som leverer fleksibiliteten og innovasjonen fra skyen til det lokale miljøet ditt og muliggjør den eneste hybride skyen som tillater utvikling og distribusjon av hybride programmer hvor som helst.  Last ned. Barn med uoppmerksom subtype av ADHD ofte ikke kan fullføre skolearbeidet eller husarbeid uten å bli distrahert. Testene er aktuelle for vurdering av førerkort når det er mistanke om kognitiv svikt . trail making test skjema . LegeStudentene er hos meg i 6 uker. Helsedirektoratet er faglig rådgiver, iverksetter av vedtatt politikk og forvalter av lov og regelverk innenfor helsesektoren. I tillegg til at jeg er fastelge jobber jeg også som Universitetslektor ved Universitetet i Oslo. Hukommelsesteam bør bestå av fagpersoner i kommunen med kompetanse på demens, som kan bistå ved spørsmål eller mistanke om demens og bidra praktisk i demensutredning, etter gjeldende retningslinjer, i samarbeid med fastlegen. Kontakt oss: Norsk forening for geriatri. Dette er en av de viktigste utøvende funksjoner, som kan være begrenset hos personer med kognitiv svikt eller nedgang. Copyright c 2016-2017 é» é å å¨±ä¹ All Rights reserved Hva synes du om denne siden? Trail Making Test A og B skjema. Last ned. Les omtaler av overnattingsstedene og velg det tilbudet som passer best for oppholdet ditt. bed-and-breakfast. Ved hjelp av Trail Making Test mental fleksibilitet måles. TMT.idupdate Trail Making Test A og B instruksjon. ";s:7:"keyword";s:13:"trailmaking a";s:5:"links";s:9468:"<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=green-villager-in-minecraft'>Green Villager In Minecraft</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=sample-sound-files'>Sample Sound Files</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=spotlight-film-priser'>Spotlight Film Priser</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=sommerhits-2018-norge'>Sommerhits 2018 Norge</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=chess-musical-oslo'>Chess Musical Oslo</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=veggli-skisenter'>Veggli Skisenter</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=tinder-str%C3%B8m'>Tinder Strøm</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=natron-som-tarmrens'>Natron Som Tarmrens</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=j%C3%B8rgen-j%C3%A6ger-fakta'>Jørgen Jæger Fakta</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=laste-ned-filmer-gratis'>Laste Ned Filmer Gratis</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=steam-community-market-cs-go-skins'>Steam Community Market Cs Go Skins</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=antall-studenter-i-trondheim-2017'>Antall Studenter I Trondheim 2017</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=hair-extensions-postoppkrav'>Hair Extensions Postoppkrav</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=softgun-pistol'>Softgun Pistol</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=death-stranding-e3-trailer'>Death Stranding E3 Trailer</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=free-online-games-sudoku'>Free Online Games Sudoku</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=red-dead-redemption-2-first-trailer'>Red Dead Redemption 2 First Trailer</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=Skylande...-Trap-Team'>Skylande... Trap Team</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=de-tre-st%C3%B8rste-%C3%B8yene-i-island'>De Tre Største øyene I Island</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=pr%C3%B8v-aftenposten-junior-gratis'>Prøv Aftenposten Junior Gratis</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=atle-bjurstr%C3%B8m-samboer'>Atle Bjurstrøm Samboer</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=elevrom-spr%C3%A5kr%C3%A5det-kartleggingstest'>Elevrom Språkrådet Kartleggingstest</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=wackyjacky-youtube'>Wackyjacky Youtube</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=pycharm-ntnu'>Pycharm Ntnu</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=kairo-english'>Kairo English</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=elkj%C3%B8p-megastore-gullgruven'>Elkjøp Megastore Gullgruven</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=itslearning-nla'>Itslearning Nla</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=best-subreddits-to-binge'>Best Subreddits To Binge</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=liv-kryssord'>Liv Kryssord</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=windows-server-2016-essentials-vs-standard'>Windows Server 2016 Essentials Vs Standard</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=jghosty'>Jghosty</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=sogndal-vgs-yrkessj%C3%A5f%C3%B8r'>Sogndal Vgs Yrkessjåfør</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=jacob-elordi-wiki'>Jacob Elordi Wiki</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=hltv-prg'>Hltv Prg</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=film-maria-magdalena-2018'>Film Maria Magdalena 2018</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=what-is-let%27s-go-pikachu'>What Is Let's Go Pikachu</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=super-mario-world-play-online'>Super Mario World Play Online</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=hannbj%C3%B8rn-kryssord'>Hannbjørn Kryssord</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=the-first-civilisations'>The First Civilisations</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=good-notes'>Good Notes</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=sink-bruksomr%C3%A5der'>Sink Bruksområder</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=leine-kryssord'>Leine Kryssord</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=tips-til-butikker-i-stavanger'>Tips Til Butikker I Stavanger</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=it-molde'>It Molde</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=min-capitech-porsgrunn-kommune'>Min Capitech Porsgrunn Kommune</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=p%C3%A5skekrim-2017-nrk'>Påskekrim 2017 Nrk</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=Halo-Wars-2'>Halo Wars 2</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=google-translate-apple'>Google Translate Apple</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=Company-of-Heroes-2'>Company Of Heroes 2</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=a-discovery-of-witches-tv'>A Discovery Of Witches Tv</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=ps4-repair'>Ps4 Repair</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=people-that-died-in-infinity-war'>People That Died In Infinity War</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=philips-tv-65'>Philips Tv 65</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=make-your-own-puzzle'>Make Your Own Puzzle</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=klage-p%C3%A5-muntlig-eksamen-ungdomsskolen'>Klage På Muntlig Eksamen Ungdomsskolen</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=l%C3%A6replan-yrkessj%C3%A5f%C3%B8rfaget'>Læreplan Yrkessjåførfaget</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=aktivitetsleder-motocross'>Aktivitetsleder Motocross</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=yandex-browser'>Yandex Browser</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=best-hbo-series-imdb-2018'>Best Hbo Series Imdb 2018</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=lekebutikk-storo'>Lekebutikk Storo</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=iphone-8-plus-power'>Iphone 8 Plus Power</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=klinisk-psykologi-england'>Klinisk Psykologi England</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=basic-code-python'>Basic Code Python</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=spansk-by-nord-i-landet'>Spansk By Nord I Landet</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=how-to-make-chrome-black-theme'>How To Make Chrome Black Theme</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=stord-kulturhus-%C3%A5pningstider'>Stord Kulturhus åpningstider</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=frankrike-befolkning'>Frankrike Befolkning</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=sk%C3%B8yen-stasjon-flytoget'>Skøyen Stasjon Flytoget</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=knowledge-is-power-review'>Knowledge Is Power Review</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=acer-chromebook-r11-specs'>Acer Chromebook R11 Specs</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=m%C3%B8rkved-skole-hjemmeside'>Mørkved Skole Hjemmeside</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=rutetabell-flybuss-fredrikstad-gardermoen'>Rutetabell Flybuss Fredrikstad Gardermoen</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=hotslogs-fenix'>Hotslogs Fenix</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=systematisk-kunnskapsoversikt'>Systematisk Kunnskapsoversikt</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=bethesda-account-for-mods'>Bethesda Account For Mods</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=the-story-behind-alias-grace'>The Story Behind Alias Grace</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=wow-twitter-customer-support'>Wow Twitter Customer Support</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=deligracy-sims-4'>Deligracy Sims 4</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=mat1110-2017'>Mat1110 2017</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=master-i-innovasjon-inn'>Master I Innovasjon Inn</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=get-out-netflix-norge'>Get Out Netflix Norge</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=m%C3%B8rk-humor-vitser'>Mørk Humor Vitser</a>,
+";s:7:"expired";i:-1;}

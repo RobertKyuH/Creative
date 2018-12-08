@@ -1,0 +1,544 @@
+a:5:{s:8:"template";s:8503:"<!DOCTYPE html>
+<html lang="nb-NO">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<link href="http://gmpg.org/xfn/11" rel="profile"/>
+
+<title>{{ keyword }}</title>
+
+<style id="colormag_style-css" media="all" rel="stylesheet" type="text/css">
+
+html, body, div, span, h3, h4, p, a, ul, li {
+	border: 0;
+	font: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+html {
+	overflow-y: scroll; 
+	-webkit-text-size-adjust: 100%; 
+	-ms-text-size-adjust: 100%; 
+}
+footer,
+header,
+nav {
+	display: block;
+}
+ul {
+	list-style: none;
+}
+a:focus {
+	outline: thin dotted;
+}
+a:hover,
+a:active {
+	outline: 0;
+}
+
+body {
+	color: #444444;
+	font: 16px 'Open Sans', serif;
+	line-height: 1.6;
+	word-wrap: break-word;
+}
+body {
+	background-color: #eaeaea;
+}
+/* Headings */
+h3, h4 {
+	padding-bottom: 18px;
+	color: #333333;
+	font-weight: normal;
+	font-family: 'Open Sans', sans-serif;
+}
+h3 { font-size: 34px; line-height: 1.2; }
+h4 { font-size: 30px; line-height: 1.2; }
+
+/* =TEXT ELEMENTS
+----------------------------------------------- */
+p {
+	line-height: 1.6;
+	margin-bottom: 15px;
+	font-family: 'Open Sans', serif;
+	font-size: 15px;
+}
+i {
+	font-style: italic;
+}
+
+ul {
+	list-style: none;
+}
+li > ul {
+	margin: 0 0 0 10px;
+}
+
+a {
+	color: #289dcc;
+	text-decoration: none;
+}
+a:focus, a:active, a:hover {
+	text-decoration: none;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.clearfix {
+	display: inline-block;
+}
+.clearfix {
+	display: block;
+}
+
+body {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-size: cover;
+}
+#page {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.wide {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.wide #page {
+	max-width: 100%;
+}
+.inner-wrap {
+	margin: 0 auto;
+	max-width: 1140px;
+}
+
+#masthead {
+}
+#header-text-nav-container {
+	background-color: #FFFFFF;
+}
+#header-text-nav-wrap {
+	padding: 20px 0 25px;
+}
+#header-left-section {
+	float: left;
+}
+#header-text {
+	float: left;
+	padding-right: 20px;
+}
+#site-title {
+	padding-bottom: 0;
+	line-height: 1.2;
+}
+#site-title a {
+	color: #289dcc;
+	font-size: 46px;
+}
+#site-description {
+	line-height: 24px;
+	font-size: 16px;
+	color: #666666;
+	padding-bottom: 0px;
+	font-family: 'Open Sans', serif;
+}
+#header-right-section {
+	float: right;
+}
+
+.fa {
+	font-size: 22px;
+	color: #CCCCCC;
+}
+
+
+nav li > ul {
+	margin: 0;
+	list-style: none;
+}
+#site-navigation {
+   box-shadow: 0 0 2px rgba(0, 0, 0, 0.1) inset;
+   position: relative;
+   background-color: #232323;
+   border-top: 4px solid #289dcc;
+}
+#site-navigation .inner-wrap {
+   position: relative;
+}
+.main-navigation {
+	width: 100%;
+	text-align: center;
+}
+.main-navigation li {
+	float: left;
+	position: relative;
+	font-family: 'Open Sans', serif;
+	font-weight: 300;
+}
+.main-navigation a {
+   color: #ffffff;
+	display: block;
+	float: none;
+	font-size: 14px;
+   font-weight: 600;
+	padding: 10px 12px;
+   text-transform: uppercase;
+}
+.main-navigation a:hover,
+.main-navigation ul li:hover > a {
+}
+.main-navigation a:hover,
+.main-navigation ul li:hover > a {
+	color: #ffffff;
+}
+.main-navigation a:hover,
+.main-navigation ul li:hover > a {
+   background-color: #289dcc;
+}
+.main-navigation li.page_item_has_children > a:after {
+   font-family: FontAwesome;
+   font-style: normal;
+   font-weight: normal;
+   text-decoration: inherit;
+   color: #ffffff;
+   font-size: 14px;
+   padding-left: 6px;
+}
+.main-navigation li.page_item_has_children > a:after {
+   content: "\f107";
+   color: #ffffff;
+}
+/* =DROP DOWN
+----------------------------------------------- */
+.main-navigation .children {
+   background-color: #232323;
+}
+.main-navigation ul li ul {
+	display:none;
+	z-index: 100;
+}
+.main-navigation ul li:hover ul {
+	display:block;
+}
+.main-navigation ul li ul {
+	position: absolute;
+	width: 200px;
+	top: 42px;
+}
+.main-navigation ul li ul li {
+	float: none;
+}
+.main-navigation ul li ul li a {
+   border-top: none;
+}
+.main-navigation ul li ul li a {
+	float: none;
+	font-size: 14px;
+	height: 100%;
+	padding: 10px 15px;
+	color: #ffffff;
+	width: 170px;
+   text-align: left;
+   text-transform: none;
+}
+.main-navigation ul li ul li a:hover,
+.main-navigation ul li ul li:hover > a {
+   color: #FFFFFF;
+   background-color: #289dcc;
+}
+
+/* =RESPONSIVE MENU
+----------------------------------------------- */
+.menu-toggle {
+	display: none;
+	cursor: pointer;
+}
+.site-header .menu-toggle {
+	color: #ffffff;
+	margin: 0;
+	text-align: center;
+	font-family: 'Open Sans', serif;
+   padding-bottom: 0;
+}
+.site-header .menu-toggle:hover {
+   background-color: #289dcc;
+}
+.site-header .menu-toggle:before {
+	content: "\f0c9";
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: inherit;
+	font-size: 23px;
+	color: #ffffff;
+   padding: 8px 12px;
+   display: block;
+}
+
+#main {
+	padding-top: 30px;
+	padding-bottom: 20px;
+	background-color: #ffffff;
+}
+
+#colophon {
+	font-size: 14px;
+	line-height: 1.4;
+}
+
+
+.footer-socket-wrapper {
+   padding: 20px 0px 50px;
+   background-color: #303440;
+}
+.footer-socket-area {
+   width: 100%;
+}
+.footer-socket-right-section {
+   float: right;
+}
+.footer-socket-wrapper .copyright {
+   color: #b1b6b6;
+   float: left;
+   font-size: 14px;
+   max-width: 50%;
+}
+.footer-socket-wrapper .copyright a {
+   color: #b1b6b6;
+   border-bottom: 1px solid #5a5d62;
+}
+.footer-socket-wrapper .copyright a:hover {
+   color: #ffffff;
+}
+
+/* =SCROLL UP
+----------------------------------------------- */
+a#scroll-up {
+	bottom: 20px;
+	position: fixed;
+	right: 20px;
+	display: none;
+	opacity: 0.5;
+	filter:alpha(opacity=50); /* For IE8 and earlier */
+}
+a#scroll-up i {
+	font-size: 40px;
+	color: #289dcc;
+}
+a#scroll-up:hover {
+	opacity: 1;
+	filter:alpha(opacity=100); /* For IE8 and earlier */
+}
+
+
+/* Sharing Section */
+#site-navigation {
+   z-index: 999;
+}
+
+/* Gallery Post Format */
+
+
+/*--------------------------------------------------------------
+Responsive Structure
+--------------------------------------------------------------*/
+@media screen and (max-width: 1190px) {
+   #page {
+      width: 97%;
+   }
+   .wide #page {
+      width: 100%;
+   }
+   .inner-wrap {
+      width: 94%;
+   }
+}
+@media screen and (max-width:768px) {
+   #header-text-nav-wrap {
+      padding: 10px 0;
+   }
+   #header-left-section {
+      float: none;
+      margin-bottom: 10px;
+   }
+   #header-text {
+      float: none;
+      text-align: center;
+      padding-right: 0;
+   }
+   #header-right-section {
+      float: none;
+   }
+   .menu-toggle {
+      display: block;
+      float: left;
+   }
+   .main-navigation ul {
+      display: none;
+   }
+}
+@media screen and (max-width: 600px) {
+   .footer-socket-right-section {
+      float: none;
+      text-align: center;
+   }
+   .footer-socket-wrapper .copyright {
+      float: none;
+      max-width: 100%;
+      text-align: center;
+   }
+}
+</style>
+
+</head>
+<body class=" wide">
+<div class="hfeed site" id="page">
+<header class="site-header clearfix" id="masthead">
+<div class="clearfix" id="header-text-nav-container">
+<div class="inner-wrap">
+<div class="clearfix" id="header-text-nav-wrap">
+<div id="header-left-section">
+<div class="" id="header-text">
+<h3 id="site-title">
+<a href="#" rel="home" title="{{ keyword }}">{{ keyword }}</a>
+</h3>
+<p id="site-description">Advice !!</p>
+
+</div>
+</div>
+<div id="header-right-section">
+</div>
+</div>
+</div>
+<nav class="main-navigation clearfix" id="site-navigation" role="navigation">
+<div class="inner-wrap clearfix">
+<h4 class="menu-toggle"></h4>
+<div class="menu">
+<ul>
+<li class="page_item page-item-46"><a href="#">insurance</a></li>
+<li class="page_item page-item-35"><a href="#">Contact</a></li>
+<li class="page_item page-item-66"><a href="#">Home</a></li>
+<li class="page_item page-item-18"><a href="#">Student </a></li>
+<li class="page_item page-item-4"><a href="#">Travel</a></li>
+</ul></div>
+</div>
+</nav>
+</div>
+</header>
+<div class="clearfix" id="main">
+<div class="inner-wrap clearfix">
+{{ text }}
+
+		</div>
+</div>
+<footer class="clearfix" id="colophon">
+<div class="footer-socket-wrapper clearfix">
+<div class="inner-wrap">
+{{ links }}
+<div class="footer-socket-area">
+<div class="footer-socket-right-section">
+</div>
+<div class="footer-socket-left-sectoin">
+<div class="copyright">Copyright  2018 <a href="#" title="{{ keyword }}"><span>{{ keyword }}</span></a>. All rights reserved.</div> </div>
+</div>
+</div>
+</div>
+</footer>
+<a href="#" id="scroll-up"><i class="fa fa-chevron-up"></i></a>
+</div>
+
+
+</body>
+</html>";s:4:"text";s:3328:"Les tester og omtaler før du skal kjøpe på nett.  Hvordan retro spillkonsoll med Raspberry Pi? 2016/02/22 · Mulighetene er nærmest uendelige. Vi vil bruke et Linux-basert operativsystem som kalles RetroPie. Den lille mikro-PC-en har satt hjulene i sving for flere kreative sjeler rundt om i verden. Vi endte med RetroPie 2.6 og en Raspberry Pi versjon 2 med en liten USB-pinn for trådløst nett. Lansert 1. kvartal 2016. Vi fikk mye hjelp fra denne videoen. Topp ti MakeUseOf har kompilert en liste over de ti beste Raspberry Pi-prosjektene så langt og det er definitivt mange godbiter der. RetroPie versjon 3 er ute i Beta. Kun US$21,34, kjøp Geekworm Raspberry Pi FC Stil NES NESPI Case / Enclosure, kompatibel med Raspberry Pi 3 Modell B, 2B og B + fra DealExtreme med gratis frakt nå! Skolehusets egen Raspberry Pi Gamers Kit pakke er nå tilgjengelig! Så vi holder oss til 2.6 en stund til. Dette systemet har endret grensesnittet og massevis av emulatorer forhåndsinstallert. kan kjøre på RetroPi systemet. Her får du alt du trenger for å sette opp din retro gaming maskin som feks. For å gjøre Pi-en til en fungerende retrokonsoll med HDMi-utgang, har jeg brukt en versjon av Linux som heter RetroPie. 2016/02/29 · Raspberry Pi 2 brukte fjorten og et halvt minutt på installasjonen av Raspbian, mens Pi 3 klarte dette på tolv minutter. Se beste pris på Raspberry Pi 3 Model B. Sammenlign priser. Da Kintaro annonserte forhåndsbestillinger på deres nye SNES replika kabinet for Raspberry Pi var jeg raskt ute med å bestille. 1. Jeg gikk for Raspberry Pi 3 Model B+ modellen, derfor må jeg foreløpig bruke Retropie distroen, men jeg har planer om å gå over til Recalbox når de kommer med støtte for Model B+. Hva er en emulator? Rediger: har også kjørt retropie og nå hjemmeassistent (hass.io), og det fungerer bra. Mulighetene er nærmest uendelige. Den virker mye lettere å sette opp, men i vår test fikk vi ikke nettverk eller norsk tastatur til å fungere. It had been a while since the idea was in my head, and we finally worked on it with my frien ... 2001: A Space Odyssey (1968) - Number 82 on the list. How to build a retrogaming arcade machine with a Raspberry Pi 3? Spill dine favoritt arkadespill og andre klassiske PC-spill med minimalt oppsett. Hyggelig med CEC som bare fungerer, tenkte ikke engang på å kjøpe en fjernkontroll "bare" for et soverom-TV. Perfekt for enklere HTPC. RetroPie lar deg gjøre om din Rasberry Pi til en retro spillmaskin. 2018/10/02 · Beskrivelse Denne Retro Game Kit passer for maker og alle som ønsker å lage et hjem retro spill arkade av seg selv. Du trenger i utgangspunktet ikke noe tastatur til RetroPie, men for installasjon er det litt enklere å ha ett tastatur for å taste inn passord til WiFi og lignende. Det første du selvfølgelig må gjøre, er å bygge en Raspberry Pi. Da jeg kjøpte den var jeg litt usikker på hva jeg skulle bruke den til, men jeg bestemte meg fort for å gå for RetroPie. Den lille mikro-PC-en har satt hjulene i sving for flere kreative sjeler rundt om i verden. 2018/10/06 · Oversikt: Nintendo Entertainment System-inspirert Raspberry Pi-sak var designet for å gjenoppleve barndomsminner. Jeg kunne ikke dy meg og kjøpte en Raspberry Pi til her om dagen. Bygg din egen retro-gaming konsoll! ";s:7:"keyword";s:11:"retropie pi";s:5:"links";s:9146:"<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=nasjonalpark-logo'>Nasjonalpark Logo</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=nedgradere-icloud'>Nedgradere Icloud</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=king-soda-candy-crush'>King Soda Candy Crush</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=l%C3%B8nn-ingeni%C3%B8r'>Lønn Ingeniør</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=the-yakuza-games'>The Yakuza Games</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=stormscale-population-eu'>Stormscale Population Eu</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=controller-program'>Controller Program</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=radiodokumentar-p3'>Radiodokumentar P3</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=tegn-p%C3%A5-at-hun-ikke-liker-deg-lenger'>Tegn På At Hun Ikke Liker Deg Lenger</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=atypical-season-3'>Atypical Season 3</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=midnight-sun-movie'>Midnight Sun Movie</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=leftovers-lyrics'>Leftovers Lyrics</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=gramma-check-online'>Gramma Check Online</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=muntlig-eksamen-2018-ungdomsskolen'>Muntlig Eksamen 2018 Ungdomsskolen</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=panfu-twitter'>Panfu Twitter</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=ark-ragnarok-crates'>Ark Ragnarok Crates</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=broforce-characters'>Broforce Characters</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=grunnstoffer-som-danner-molekyler'>Grunnstoffer Som Danner Molekyler</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=ikt-l%C3%A6rling-bedrifter'>Ikt Lærling Bedrifter</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=chromebook-delete-files'>Chromebook Delete Files</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=23%2F5-regelen-alderspoeng'>23/5 Regelen Alderspoeng</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=eksamensdatoer-2018-uit'>Eksamensdatoer 2018 Uit</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=l%C3%B8sning-tine-p%C3%A5skekrim-2018'>Løsning Tine Påskekrim 2018</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=best-free-writer-software'>Best Free Writer Software</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=bildeeffekter-app'>Bildeeffekter App</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=league-of-legends-mmr-for-each-division'>League Of Legends Mmr For Each Division</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=house-party-app'>House Party App</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=screenshot-huawei-p20'>Screenshot Huawei P20</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=tv2-vm-manager-tips'>Tv2 Vm Manager Tips</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=l%C3%B8gnern-kortspill'>Løgnern Kortspill</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=parkering-troms%C3%B8-sentrum'>Parkering Tromsø Sentrum</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=bergenskart-mno'>Bergenskart Mno</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=klassiske-b%C3%B8ker-man-m%C3%A5-lese'>Klassiske Bøker Man Må Lese</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=Livvaktene'>Livvaktene</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=farming-simulator-2017-where-to-put-straw'>Farming Simulator 2017 Where To Put Straw</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=detaljer-kart-over-lofoten'>Detaljer Kart Over Lofoten</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=fortnite-charts'>Fortnite Charts</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=psn-down-norway'>Psn Down Norway</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=boot-sequence-windows'>Boot Sequence Windows</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=charles-martinet'>Charles Martinet</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=dota-2-prize-pool-2018'>Dota 2 Prize Pool 2018</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=blackboard-alternative-innlogging'>Blackboard Alternative Innlogging</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=tekst-til-takkekort-konfirmasjon'>Tekst Til Takkekort Konfirmasjon</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=moonlight-lykt'>Moonlight Lykt</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=everquest-1-release-date'>Everquest 1 Release Date</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=parkeringsklagenemda'>Parkeringsklagenemda</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=minestudier-n'>Minestudier N</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=skam-sesong-1-episode-4'>Skam Sesong 1 Episode 4</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=adx-firepower-h03'>Adx Firepower H03</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=good-time-anmeldelse'>Good Time Anmeldelse</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=sierra-mac-version'>Sierra Mac Version</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=audition-film-2018-norge'>Audition Film 2018 Norge</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=detroit-become-human-steam'>Detroit Become Human Steam</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=installere-sims-4-p%C3%A5-flere-pc'>Installere Sims 4 På Flere Pc</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=norske-byggeklosser-2018-dvd'>Norske Byggeklosser 2018 Dvd</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=enter-gyldendal'>Enter Gyldendal</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=bioshock-4'>Bioshock 4</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=fortnite-account-for-sale'>Fortnite Account For Sale</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=etter-deg-filmatisert'>Etter Deg Filmatisert</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=antivirus-free-download'>Antivirus Free Download</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=avinor-jobb'>Avinor Jobb</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=hp-elitebook-sim-kort'>Hp Elitebook Sim Kort</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=oslomet-canvas'>Oslomet Canvas</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=macbook-pro-a1708'>Macbook Pro A1708</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=animal-crossing-new-leaf-face-guide'>Animal Crossing New Leaf Face Guide</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=eden-gate-shrines-faith-region'>Eden Gate Shrines Faith Region</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=facebook-aldersgrense-2018'>Facebook Aldersgrense 2018</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=tyrkisk-mat'>Tyrkisk Mat</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=fagskoleingeni%C3%B8r-jobb'>Fagskoleingeniør Jobb</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=guttenavn-p%C3%A5-to-bokstaver'>Guttenavn På To Bokstaver</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=hvitvin-kartong-riesling'>Hvitvin Kartong Riesling</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=aponett-login'>Aponett Login</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=omega-ruby-pok%C3%A9dex'>Omega Ruby Pokédex</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=verdenskart-land'>Verdenskart Land</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=rikstv-12-volt'>Rikstv 12 Volt</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=macbook-air-11-tommer-prisjakt'>Macbook Air 11 Tommer Prisjakt</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=fantorangen-filmer'>Fantorangen Filmer</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=fastlege-troms%C3%B8'>Fastlege Tromsø</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=web-untis-fagerlia'>Web Untis Fagerlia</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=forklare-kryssord'>Forklare Kryssord</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=tekken-6-ps4'>Tekken 6 Ps4</a>,
+";s:7:"expired";i:-1;}

@@ -1,0 +1,532 @@
+a:5:{s:8:"template";s:8503:"<!DOCTYPE html>
+<html lang="nb-NO">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<link href="http://gmpg.org/xfn/11" rel="profile"/>
+
+<title>{{ keyword }}</title>
+
+<style id="colormag_style-css" media="all" rel="stylesheet" type="text/css">
+
+html, body, div, span, h3, h4, p, a, ul, li {
+	border: 0;
+	font: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+html {
+	overflow-y: scroll; 
+	-webkit-text-size-adjust: 100%; 
+	-ms-text-size-adjust: 100%; 
+}
+footer,
+header,
+nav {
+	display: block;
+}
+ul {
+	list-style: none;
+}
+a:focus {
+	outline: thin dotted;
+}
+a:hover,
+a:active {
+	outline: 0;
+}
+
+body {
+	color: #444444;
+	font: 16px 'Open Sans', serif;
+	line-height: 1.6;
+	word-wrap: break-word;
+}
+body {
+	background-color: #eaeaea;
+}
+/* Headings */
+h3, h4 {
+	padding-bottom: 18px;
+	color: #333333;
+	font-weight: normal;
+	font-family: 'Open Sans', sans-serif;
+}
+h3 { font-size: 34px; line-height: 1.2; }
+h4 { font-size: 30px; line-height: 1.2; }
+
+/* =TEXT ELEMENTS
+----------------------------------------------- */
+p {
+	line-height: 1.6;
+	margin-bottom: 15px;
+	font-family: 'Open Sans', serif;
+	font-size: 15px;
+}
+i {
+	font-style: italic;
+}
+
+ul {
+	list-style: none;
+}
+li > ul {
+	margin: 0 0 0 10px;
+}
+
+a {
+	color: #289dcc;
+	text-decoration: none;
+}
+a:focus, a:active, a:hover {
+	text-decoration: none;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.clearfix {
+	display: inline-block;
+}
+.clearfix {
+	display: block;
+}
+
+body {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-size: cover;
+}
+#page {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.wide {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.wide #page {
+	max-width: 100%;
+}
+.inner-wrap {
+	margin: 0 auto;
+	max-width: 1140px;
+}
+
+#masthead {
+}
+#header-text-nav-container {
+	background-color: #FFFFFF;
+}
+#header-text-nav-wrap {
+	padding: 20px 0 25px;
+}
+#header-left-section {
+	float: left;
+}
+#header-text {
+	float: left;
+	padding-right: 20px;
+}
+#site-title {
+	padding-bottom: 0;
+	line-height: 1.2;
+}
+#site-title a {
+	color: #289dcc;
+	font-size: 46px;
+}
+#site-description {
+	line-height: 24px;
+	font-size: 16px;
+	color: #666666;
+	padding-bottom: 0px;
+	font-family: 'Open Sans', serif;
+}
+#header-right-section {
+	float: right;
+}
+
+.fa {
+	font-size: 22px;
+	color: #CCCCCC;
+}
+
+
+nav li > ul {
+	margin: 0;
+	list-style: none;
+}
+#site-navigation {
+   box-shadow: 0 0 2px rgba(0, 0, 0, 0.1) inset;
+   position: relative;
+   background-color: #232323;
+   border-top: 4px solid #289dcc;
+}
+#site-navigation .inner-wrap {
+   position: relative;
+}
+.main-navigation {
+	width: 100%;
+	text-align: center;
+}
+.main-navigation li {
+	float: left;
+	position: relative;
+	font-family: 'Open Sans', serif;
+	font-weight: 300;
+}
+.main-navigation a {
+   color: #ffffff;
+	display: block;
+	float: none;
+	font-size: 14px;
+   font-weight: 600;
+	padding: 10px 12px;
+   text-transform: uppercase;
+}
+.main-navigation a:hover,
+.main-navigation ul li:hover > a {
+}
+.main-navigation a:hover,
+.main-navigation ul li:hover > a {
+	color: #ffffff;
+}
+.main-navigation a:hover,
+.main-navigation ul li:hover > a {
+   background-color: #289dcc;
+}
+.main-navigation li.page_item_has_children > a:after {
+   font-family: FontAwesome;
+   font-style: normal;
+   font-weight: normal;
+   text-decoration: inherit;
+   color: #ffffff;
+   font-size: 14px;
+   padding-left: 6px;
+}
+.main-navigation li.page_item_has_children > a:after {
+   content: "\f107";
+   color: #ffffff;
+}
+/* =DROP DOWN
+----------------------------------------------- */
+.main-navigation .children {
+   background-color: #232323;
+}
+.main-navigation ul li ul {
+	display:none;
+	z-index: 100;
+}
+.main-navigation ul li:hover ul {
+	display:block;
+}
+.main-navigation ul li ul {
+	position: absolute;
+	width: 200px;
+	top: 42px;
+}
+.main-navigation ul li ul li {
+	float: none;
+}
+.main-navigation ul li ul li a {
+   border-top: none;
+}
+.main-navigation ul li ul li a {
+	float: none;
+	font-size: 14px;
+	height: 100%;
+	padding: 10px 15px;
+	color: #ffffff;
+	width: 170px;
+   text-align: left;
+   text-transform: none;
+}
+.main-navigation ul li ul li a:hover,
+.main-navigation ul li ul li:hover > a {
+   color: #FFFFFF;
+   background-color: #289dcc;
+}
+
+/* =RESPONSIVE MENU
+----------------------------------------------- */
+.menu-toggle {
+	display: none;
+	cursor: pointer;
+}
+.site-header .menu-toggle {
+	color: #ffffff;
+	margin: 0;
+	text-align: center;
+	font-family: 'Open Sans', serif;
+   padding-bottom: 0;
+}
+.site-header .menu-toggle:hover {
+   background-color: #289dcc;
+}
+.site-header .menu-toggle:before {
+	content: "\f0c9";
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: inherit;
+	font-size: 23px;
+	color: #ffffff;
+   padding: 8px 12px;
+   display: block;
+}
+
+#main {
+	padding-top: 30px;
+	padding-bottom: 20px;
+	background-color: #ffffff;
+}
+
+#colophon {
+	font-size: 14px;
+	line-height: 1.4;
+}
+
+
+.footer-socket-wrapper {
+   padding: 20px 0px 50px;
+   background-color: #303440;
+}
+.footer-socket-area {
+   width: 100%;
+}
+.footer-socket-right-section {
+   float: right;
+}
+.footer-socket-wrapper .copyright {
+   color: #b1b6b6;
+   float: left;
+   font-size: 14px;
+   max-width: 50%;
+}
+.footer-socket-wrapper .copyright a {
+   color: #b1b6b6;
+   border-bottom: 1px solid #5a5d62;
+}
+.footer-socket-wrapper .copyright a:hover {
+   color: #ffffff;
+}
+
+/* =SCROLL UP
+----------------------------------------------- */
+a#scroll-up {
+	bottom: 20px;
+	position: fixed;
+	right: 20px;
+	display: none;
+	opacity: 0.5;
+	filter:alpha(opacity=50); /* For IE8 and earlier */
+}
+a#scroll-up i {
+	font-size: 40px;
+	color: #289dcc;
+}
+a#scroll-up:hover {
+	opacity: 1;
+	filter:alpha(opacity=100); /* For IE8 and earlier */
+}
+
+
+/* Sharing Section */
+#site-navigation {
+   z-index: 999;
+}
+
+/* Gallery Post Format */
+
+
+/*--------------------------------------------------------------
+Responsive Structure
+--------------------------------------------------------------*/
+@media screen and (max-width: 1190px) {
+   #page {
+      width: 97%;
+   }
+   .wide #page {
+      width: 100%;
+   }
+   .inner-wrap {
+      width: 94%;
+   }
+}
+@media screen and (max-width:768px) {
+   #header-text-nav-wrap {
+      padding: 10px 0;
+   }
+   #header-left-section {
+      float: none;
+      margin-bottom: 10px;
+   }
+   #header-text {
+      float: none;
+      text-align: center;
+      padding-right: 0;
+   }
+   #header-right-section {
+      float: none;
+   }
+   .menu-toggle {
+      display: block;
+      float: left;
+   }
+   .main-navigation ul {
+      display: none;
+   }
+}
+@media screen and (max-width: 600px) {
+   .footer-socket-right-section {
+      float: none;
+      text-align: center;
+   }
+   .footer-socket-wrapper .copyright {
+      float: none;
+      max-width: 100%;
+      text-align: center;
+   }
+}
+</style>
+
+</head>
+<body class=" wide">
+<div class="hfeed site" id="page">
+<header class="site-header clearfix" id="masthead">
+<div class="clearfix" id="header-text-nav-container">
+<div class="inner-wrap">
+<div class="clearfix" id="header-text-nav-wrap">
+<div id="header-left-section">
+<div class="" id="header-text">
+<h3 id="site-title">
+<a href="#" rel="home" title="{{ keyword }}">{{ keyword }}</a>
+</h3>
+<p id="site-description">Advice !!</p>
+
+</div>
+</div>
+<div id="header-right-section">
+</div>
+</div>
+</div>
+<nav class="main-navigation clearfix" id="site-navigation" role="navigation">
+<div class="inner-wrap clearfix">
+<h4 class="menu-toggle"></h4>
+<div class="menu">
+<ul>
+<li class="page_item page-item-46"><a href="#">insurance</a></li>
+<li class="page_item page-item-35"><a href="#">Contact</a></li>
+<li class="page_item page-item-66"><a href="#">Home</a></li>
+<li class="page_item page-item-18"><a href="#">Student </a></li>
+<li class="page_item page-item-4"><a href="#">Travel</a></li>
+</ul></div>
+</div>
+</nav>
+</div>
+</header>
+<div class="clearfix" id="main">
+<div class="inner-wrap clearfix">
+{{ text }}
+
+		</div>
+</div>
+<footer class="clearfix" id="colophon">
+<div class="footer-socket-wrapper clearfix">
+<div class="inner-wrap">
+{{ links }}
+<div class="footer-socket-area">
+<div class="footer-socket-right-section">
+</div>
+<div class="footer-socket-left-sectoin">
+<div class="copyright">Copyright  2018 <a href="#" title="{{ keyword }}"><span>{{ keyword }}</span></a>. All rights reserved.</div> </div>
+</div>
+</div>
+</div>
+</footer>
+<a href="#" id="scroll-up"><i class="fa fa-chevron-up"></i></a>
+</div>
+
+
+</body>
+</html>";s:4:"text";s:7040:"Journalistene har helt siden 1936 hatt en egen ”vær varsom”-plakat med etiske normer for yrkesgruppen. Våre etiske retningslinjer legger vekt på at alle involverte – ansatte, ledere og styremedlemmer – overholder vår felles etiske standard når vi utfører våre tjenester. Barnehage Grunnskole Videregående opplæring Universitet og høgskole Faglig-administrativt støttesystem ... Barnehage. Som medlemmer av IFSW er profesjonene forpliktet av dette internasjonale dokumentet. Målsettingen med vedtaket var å "skape et samlet uttrykk for førskolelærere, lærere og ledere i barnehage og skole, uavhengig av fagforeningstilhørighet". Det er ønskelig at barn- og unge som deltar i menighetens arbeid skal ha et … Vedtekter, retningslinjer og rutiner Årsmeldinger ... For pressen Medlemsgrupper. 6) som omhandler sykepleieren og samfunnet. Her er lenker til Barnehageloven og til Rammeplanen for barnehagen: Kollektivtrafikk og transport Trafikkbetjenter Samfunnssikkerhet og beredskap. Vi organiserer arbeidstakere i kommunale, fylkeskommunale, statlige, private og offentlige virksomheter og i sykehusene med alle støttefunksjoner. Barnehage Grunnskole Videregående opplæring Universitet og høgskole Faglig-administrativt støttesystem Ledelse Voksenopplæring Fylkes- og lokallag. Ringstabekk FUS barnehage I barnehagen møtes mange små individer til læring og utvikling gjennom lek. Mange profesjonsorganisasjoner har utarbeidet egne yrkesetiske retningslinjer for sine medlemmer og etiske retningslinjer for egen organisasjon. Mange yrkesorganisasjoner opererer med yrkesetiske retningslinjer. Her slår de tydelig fast at «Sykepleieren deltar aktivt i den offentlige debatt, og bidrar til at faglige og etiske normer legges til grunn for sosial- … 21 Læreryrkene trenger yrkesetiske retningslinjer! Vedtekter, retningslinjer og rutiner Årsmeldinger For arbeidsgivere Kontakt oss For pressen Medlemsgrupper. Barnehage Samferdsel. Publisert 24.08.2015 +1år. ... faglige eller yrkesetiske verdier blir utfordret. Fag og yrkesgrupper. Retningslinjene ble revidert og godkjent av NSFs forbundsledelse våren 2016. «Utdanningsforbundet vil forankre og synliggjøre våre verdier, rettigheter og plikter som førskolelærere, lærere eller ledere gjennom å utarbeide yrkesetiske retningslinjer». Vi har et rikt utvalg av Dufter, Sminke og Makeup, Hudpleie og Hårpleie. Nøl ikke med å ta kontakt. Barnehageloven § 2 om barnehagens innhold og § 3 om barns rett til medvirkning har synliggjort yrkesetiske utfordringer som krever høy grad av faglig og etisk kompetanse. Det betyr for deg: rask levering, god kundeservice og konkurransedyktige priser. Fagforbundet har medlemmer fra nærmere 180 forskjellige yrker. Hos oss får du ingen skjulte overraskelser - som tollgebyrer, flere ukers leveringstid eller fraktutgifter. Målsettingen med vedtaket var å "skape et samlet uttrykk for førskolelærere, lærere og ledere i barnehage og skole, uavhengig av fagforeningstilhørighet". Vakker er en ny norsk nettbutikk med lager i Norge. 4. i sosialt arbeid og yrkesetiske retningslinjer. Helsefagarbeidere i Delta har laget yrkesetiske retningslinjer for helsefagarbeidere. Yrkesetisk retningslinjer for sykepleiere er førende for arbeidet i Rådet for sykepleieetikk. – 27. september. Yrkesetiske retningslinjer; Årsplaner; yrkesetiske retningslinjer bua. Som lærling i barne- og ungdomsarbeiderfaget er du ansatt i barnehage, SFO eller klubb i en kommune. Første versjon kom i 1983. Da er respekt og toleranse for de andre viktig. Yrkesetikk gir retningslinjer for hvordan man bør oppføre seg i rollen som fagperson. Førskolelærerens holdninger og verdier synliggjøres i samspillet gjennom væremåte og i møte med barn. I vår barnehage bidrar vi til at barn utvikler trygghet på seg selv og sin identitet. Vedtatt av landsstyret 1961 med endringer, senest 2015. I løpet av de første ukene på et nytt opplæringssted er det mye å sette seg inn i. Vi arbeider derfor kontinuerlig for å utvikle en gjensidig forståelse og trygghet mellom barnehagen og hjemmene. Barnehagen er et sted hvor barna skal oppleve glede og mestring. Vakker er en ny norsk nettbutikk med lager i Norge. Forskere innen feltet diakonalt arbeid. I 2012 arbeidet først en referansegruppe med første utkast til en profesjonsetisk plattform. Skriv din kommentar her... Fyll inn i feltene under, eller klikk på et ikon for å logge inn: E-post (påkrevet) (Adressen vises aldri offentlig) Navn (påkrevet) Nettsted. I løpet av de første ukene på et nytt opplæringssted er det mye å sette seg inn i. Vedtekter, retningslinjer og rutiner Årsmeldinger For arbeidsgivere Kontakt oss For pressen Medlemsgrupper. ICNs retningslinjer engelsk/norsk; Rådet vil gjerne høre dine kommentarer og erfaringer med bruken av retningslinjene. De yrkesetiske retningslinjer kan også studeres og benyttes av: Studenter og undervisningspersonell ved utdanningsinstitusjoner. Helsesekretæren skal sette seg inn i den målsetting og funksjon arbeidsstedet har, og være lojal mot de gjeldende regler og instrukser så langt disse er i samsvar med disse yrkesetiske retningslinjer. Som lærling i barne- og ungdomsarbeiderfaget er du ansatt i barnehage, SFO eller klubb i en kommune. Ringstabekk FUS barnehage ... • FUS etiske retningslinjer • FNs barnekonvensjon • Miljørettet helsevern i barnehage og skole For å få til dette er det viktig å jobbe med barnas trygghet og tilknytning til barnehagen. Mennesker diakoner møter i sin tjeneste. Det betyr for deg: rask levering, god kundeservice og konkurransedyktige priser. Reklamer. Lik dette: Liker Laster... Legg igjen en kommentar Avbryt svar. yrkesetiske retningslinjer bua. FO er også  De yrkesetiske retningslinjene gjelder alle disse arbeidsområdene så lenge diakonen er medlem av Det Norske Diakonforbund. Her finner en et eget kapittel (Kap. Konkrete etiske retningslinjer A: Sjelesorg og veiledning Med sjelesorg forstår vi i det følgende fortrolige samtaler om personlige og åndelige forhold mellom en hjelper (sjelesørger) og en som søker hjelp (konfident). yrkesetiske retningslinjer bua. Reklamer. Etiske retningslinjer for yrkesgruppene i Seksjon helse og sosial; Etiske retningslinjer for yrkesgruppene i Seksjon helse og sosial. Det skal være strenge regler for de som forvalter offentlige penger og regelverk. Norsk sykepleierforbund har utviklet egne yrkesetiske retningslinjer. Etiske retningslinjer for folkevalgte og ansatte i Kongsvinger kommune gir føringer i hva som ikke er aksepterte handlinger. Etiske retningslinjer i Norlandia. Den handler om journalisters integritet og ansvar, og forholdet til kildene. Etiske utfordringer i barnehage og skole Pedagogers etikk blir tema på årets tvilsdager 25. De etiske retningslinjene er en felles plattform for Fagforbundets medlemmer … Klassestørrelse. Norlandia gjør en viktig innsats for samfunnet ved å tilby tjenester som drift av barnehager, pasienthotell og sykehjem. ";s:7:"keyword";s:40:"yrkesetiske retningslinjer for barnehage";s:5:"links";s:7834:"<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=where-to-farm-tellurium-warframe'>Where To Farm Tellurium Warframe</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=gta-v-online-muscle-cars'>Gta V Online Muscle Cars</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=master-i-kirkelig-undervisning'>Master I Kirkelig Undervisning</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=argentina-vm-tropp-2018'>Argentina Vm Tropp 2018</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=bamsefar-f%C3%B8dselsdag-tekst'>Bamsefar Fødselsdag Tekst</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=saudi-arabia-world-cup'>Saudi Arabia World Cup</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=hempa-skole'>Hempa Skole</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=tannlegevakten-oslo'>Tannlegevakten Oslo</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=download-minecraft-windows-free'>Download Minecraft Windows Free</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=water-guardian-minecraft'>Water Guardian Minecraft</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=13-reasons-why-season-2-netflix-release-date'>13 Reasons Why Season 2 Netflix Release Date</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=carsten-niebuhrs-gade-11'>Carsten Niebuhrs Gade 11</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=barnevern-retningslinjer'>Barnevern Retningslinjer</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=gj%C3%B8re-h%C3%B8yttalere-tr%C3%A5dl%C3%B8se'>Gjøre Høyttalere Trådløse</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=j%C3%B8diske-h%C3%B8ytider-rosh-hashana'>Jødiske Høytider Rosh Hashana</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=mattespill-gratis'>Mattespill Gratis</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=openemu-mario-64'>Openemu Mario 64</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=radioactivity-definition'>Radioactivity Definition</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=josh-dylan-movies'>Josh Dylan Movies</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=guri-skavlan'>Guri Skavlan</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=mikke-mus-bamse'>Mikke Mus Bamse</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=brawlhalla-combos'>Brawlhalla Combos</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=arkitektur-og-designh%C3%B8gskolen-i-oslo'>Arkitektur Og Designhøgskolen I Oslo</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=sola-kommune-ledige-stillinger'>Sola Kommune Ledige Stillinger</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=123spill-pacxon'>123spill Pacxon</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=tv-2-sumo-modern-family-sesong-9'>Tv 2 Sumo Modern Family Sesong 9</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=gamle-ord-som-ikke-brukes-lenger'>Gamle Ord Som Ikke Brukes Lenger</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=norsk-pop-2017'>Norsk Pop 2017</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=the-sims-4-personality-please'>The Sims 4 Personality Please</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=moana-song'>Moana Song</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=lg-tv-appstore'>Lg Tv Appstore</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=how-it-ends-film'>How It Ends Film</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=sea-of-thieves-helpline'>Sea Of Thieves Helpline</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=trekk-til-solstol'>Trekk Til Solstol</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=usselt-synonym'>Usselt Synonym</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=edvard-grieg-d%C3%B8d'>Edvard Grieg Død</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=ned-i-fettprosent-diett-jenter'>Ned I Fettprosent Diett Jenter</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=lunner-kommune-tlf'>Lunner Kommune Tlf</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=performance-translate'>Performance Translate</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=chrome-view-cache'>Chrome View Cache</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=ertelysten-kryssord'>Ertelysten Kryssord</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=iphone-8-plus-power'>Iphone 8 Plus Power</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=p%C3%A4r-sundberg'>Pär Sundberg</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=helsehuset-kristiansund-tannlege'>Helsehuset Kristiansund Tannlege</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=t%C3%B8yen-bibliotek-verkt%C3%B8y'>Tøyen Bibliotek Verktøy</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=lisa-teige-vekt'>Lisa Teige Vekt</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=bridgit-mendler-nick-mendler'>Bridgit Mendler Nick Mendler</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=grimstad-kart'>Grimstad Kart</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=collateral-meaning'>Collateral Meaning</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=fakta-om-coca-cola'>Fakta Om Coca Cola</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=oblivion-mac'>Oblivion Mac</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=thomas-hayes-linni-meister'>Thomas Hayes Linni Meister</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=house-of-cards-imdb'>House Of Cards Imdb</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=publisering-av-bilder'>Publisering Av Bilder</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=kj%C3%B8pe-b%C3%B8ker'>Kjøpe Bøker</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=skolerute-2018%2F2019'>Skolerute 2018/2019</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=isle-of-nyne-release'>Isle Of Nyne Release</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=drikke-brus-hver-dag'>Drikke Brus Hver Dag</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=kostra-kultur'>Kostra Kultur</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=ntnu-rektor'>Ntnu Rektor</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=scandic-stavanger-city-hotel-parkering'>Scandic Stavanger City Hotel Parkering</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=horn-monster-hunter-world'>Horn Monster Hunter World</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=h%C3%B8yteknologisenteret-parkering'>Høyteknologisenteret Parkering</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=just-cause-3-coop-pc'>Just Cause 3 Coop Pc</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=arken-senter'>Arken Senter</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=comedy-shorts-gamer-twitter'>Comedy Shorts Gamer Twitter</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=softail-slim-2018'>Softail Slim 2018</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=ps5-spill'>Ps5 Spill</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=hentesett-baby-drops'>Hentesett Baby Drops</a>,
+";s:7:"expired";i:-1;}

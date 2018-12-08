@@ -1,0 +1,562 @@
+a:5:{s:8:"template";s:8503:"<!DOCTYPE html>
+<html lang="nb-NO">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<link href="http://gmpg.org/xfn/11" rel="profile"/>
+
+<title>{{ keyword }}</title>
+
+<style id="colormag_style-css" media="all" rel="stylesheet" type="text/css">
+
+html, body, div, span, h3, h4, p, a, ul, li {
+	border: 0;
+	font: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+html {
+	overflow-y: scroll; 
+	-webkit-text-size-adjust: 100%; 
+	-ms-text-size-adjust: 100%; 
+}
+footer,
+header,
+nav {
+	display: block;
+}
+ul {
+	list-style: none;
+}
+a:focus {
+	outline: thin dotted;
+}
+a:hover,
+a:active {
+	outline: 0;
+}
+
+body {
+	color: #444444;
+	font: 16px 'Open Sans', serif;
+	line-height: 1.6;
+	word-wrap: break-word;
+}
+body {
+	background-color: #eaeaea;
+}
+/* Headings */
+h3, h4 {
+	padding-bottom: 18px;
+	color: #333333;
+	font-weight: normal;
+	font-family: 'Open Sans', sans-serif;
+}
+h3 { font-size: 34px; line-height: 1.2; }
+h4 { font-size: 30px; line-height: 1.2; }
+
+/* =TEXT ELEMENTS
+----------------------------------------------- */
+p {
+	line-height: 1.6;
+	margin-bottom: 15px;
+	font-family: 'Open Sans', serif;
+	font-size: 15px;
+}
+i {
+	font-style: italic;
+}
+
+ul {
+	list-style: none;
+}
+li > ul {
+	margin: 0 0 0 10px;
+}
+
+a {
+	color: #289dcc;
+	text-decoration: none;
+}
+a:focus, a:active, a:hover {
+	text-decoration: none;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.clearfix {
+	display: inline-block;
+}
+.clearfix {
+	display: block;
+}
+
+body {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-size: cover;
+}
+#page {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.wide {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.wide #page {
+	max-width: 100%;
+}
+.inner-wrap {
+	margin: 0 auto;
+	max-width: 1140px;
+}
+
+#masthead {
+}
+#header-text-nav-container {
+	background-color: #FFFFFF;
+}
+#header-text-nav-wrap {
+	padding: 20px 0 25px;
+}
+#header-left-section {
+	float: left;
+}
+#header-text {
+	float: left;
+	padding-right: 20px;
+}
+#site-title {
+	padding-bottom: 0;
+	line-height: 1.2;
+}
+#site-title a {
+	color: #289dcc;
+	font-size: 46px;
+}
+#site-description {
+	line-height: 24px;
+	font-size: 16px;
+	color: #666666;
+	padding-bottom: 0px;
+	font-family: 'Open Sans', serif;
+}
+#header-right-section {
+	float: right;
+}
+
+.fa {
+	font-size: 22px;
+	color: #CCCCCC;
+}
+
+
+nav li > ul {
+	margin: 0;
+	list-style: none;
+}
+#site-navigation {
+   box-shadow: 0 0 2px rgba(0, 0, 0, 0.1) inset;
+   position: relative;
+   background-color: #232323;
+   border-top: 4px solid #289dcc;
+}
+#site-navigation .inner-wrap {
+   position: relative;
+}
+.main-navigation {
+	width: 100%;
+	text-align: center;
+}
+.main-navigation li {
+	float: left;
+	position: relative;
+	font-family: 'Open Sans', serif;
+	font-weight: 300;
+}
+.main-navigation a {
+   color: #ffffff;
+	display: block;
+	float: none;
+	font-size: 14px;
+   font-weight: 600;
+	padding: 10px 12px;
+   text-transform: uppercase;
+}
+.main-navigation a:hover,
+.main-navigation ul li:hover > a {
+}
+.main-navigation a:hover,
+.main-navigation ul li:hover > a {
+	color: #ffffff;
+}
+.main-navigation a:hover,
+.main-navigation ul li:hover > a {
+   background-color: #289dcc;
+}
+.main-navigation li.page_item_has_children > a:after {
+   font-family: FontAwesome;
+   font-style: normal;
+   font-weight: normal;
+   text-decoration: inherit;
+   color: #ffffff;
+   font-size: 14px;
+   padding-left: 6px;
+}
+.main-navigation li.page_item_has_children > a:after {
+   content: "\f107";
+   color: #ffffff;
+}
+/* =DROP DOWN
+----------------------------------------------- */
+.main-navigation .children {
+   background-color: #232323;
+}
+.main-navigation ul li ul {
+	display:none;
+	z-index: 100;
+}
+.main-navigation ul li:hover ul {
+	display:block;
+}
+.main-navigation ul li ul {
+	position: absolute;
+	width: 200px;
+	top: 42px;
+}
+.main-navigation ul li ul li {
+	float: none;
+}
+.main-navigation ul li ul li a {
+   border-top: none;
+}
+.main-navigation ul li ul li a {
+	float: none;
+	font-size: 14px;
+	height: 100%;
+	padding: 10px 15px;
+	color: #ffffff;
+	width: 170px;
+   text-align: left;
+   text-transform: none;
+}
+.main-navigation ul li ul li a:hover,
+.main-navigation ul li ul li:hover > a {
+   color: #FFFFFF;
+   background-color: #289dcc;
+}
+
+/* =RESPONSIVE MENU
+----------------------------------------------- */
+.menu-toggle {
+	display: none;
+	cursor: pointer;
+}
+.site-header .menu-toggle {
+	color: #ffffff;
+	margin: 0;
+	text-align: center;
+	font-family: 'Open Sans', serif;
+   padding-bottom: 0;
+}
+.site-header .menu-toggle:hover {
+   background-color: #289dcc;
+}
+.site-header .menu-toggle:before {
+	content: "\f0c9";
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: inherit;
+	font-size: 23px;
+	color: #ffffff;
+   padding: 8px 12px;
+   display: block;
+}
+
+#main {
+	padding-top: 30px;
+	padding-bottom: 20px;
+	background-color: #ffffff;
+}
+
+#colophon {
+	font-size: 14px;
+	line-height: 1.4;
+}
+
+
+.footer-socket-wrapper {
+   padding: 20px 0px 50px;
+   background-color: #303440;
+}
+.footer-socket-area {
+   width: 100%;
+}
+.footer-socket-right-section {
+   float: right;
+}
+.footer-socket-wrapper .copyright {
+   color: #b1b6b6;
+   float: left;
+   font-size: 14px;
+   max-width: 50%;
+}
+.footer-socket-wrapper .copyright a {
+   color: #b1b6b6;
+   border-bottom: 1px solid #5a5d62;
+}
+.footer-socket-wrapper .copyright a:hover {
+   color: #ffffff;
+}
+
+/* =SCROLL UP
+----------------------------------------------- */
+a#scroll-up {
+	bottom: 20px;
+	position: fixed;
+	right: 20px;
+	display: none;
+	opacity: 0.5;
+	filter:alpha(opacity=50); /* For IE8 and earlier */
+}
+a#scroll-up i {
+	font-size: 40px;
+	color: #289dcc;
+}
+a#scroll-up:hover {
+	opacity: 1;
+	filter:alpha(opacity=100); /* For IE8 and earlier */
+}
+
+
+/* Sharing Section */
+#site-navigation {
+   z-index: 999;
+}
+
+/* Gallery Post Format */
+
+
+/*--------------------------------------------------------------
+Responsive Structure
+--------------------------------------------------------------*/
+@media screen and (max-width: 1190px) {
+   #page {
+      width: 97%;
+   }
+   .wide #page {
+      width: 100%;
+   }
+   .inner-wrap {
+      width: 94%;
+   }
+}
+@media screen and (max-width:768px) {
+   #header-text-nav-wrap {
+      padding: 10px 0;
+   }
+   #header-left-section {
+      float: none;
+      margin-bottom: 10px;
+   }
+   #header-text {
+      float: none;
+      text-align: center;
+      padding-right: 0;
+   }
+   #header-right-section {
+      float: none;
+   }
+   .menu-toggle {
+      display: block;
+      float: left;
+   }
+   .main-navigation ul {
+      display: none;
+   }
+}
+@media screen and (max-width: 600px) {
+   .footer-socket-right-section {
+      float: none;
+      text-align: center;
+   }
+   .footer-socket-wrapper .copyright {
+      float: none;
+      max-width: 100%;
+      text-align: center;
+   }
+}
+</style>
+
+</head>
+<body class=" wide">
+<div class="hfeed site" id="page">
+<header class="site-header clearfix" id="masthead">
+<div class="clearfix" id="header-text-nav-container">
+<div class="inner-wrap">
+<div class="clearfix" id="header-text-nav-wrap">
+<div id="header-left-section">
+<div class="" id="header-text">
+<h3 id="site-title">
+<a href="#" rel="home" title="{{ keyword }}">{{ keyword }}</a>
+</h3>
+<p id="site-description">Advice !!</p>
+
+</div>
+</div>
+<div id="header-right-section">
+</div>
+</div>
+</div>
+<nav class="main-navigation clearfix" id="site-navigation" role="navigation">
+<div class="inner-wrap clearfix">
+<h4 class="menu-toggle"></h4>
+<div class="menu">
+<ul>
+<li class="page_item page-item-46"><a href="#">insurance</a></li>
+<li class="page_item page-item-35"><a href="#">Contact</a></li>
+<li class="page_item page-item-66"><a href="#">Home</a></li>
+<li class="page_item page-item-18"><a href="#">Student </a></li>
+<li class="page_item page-item-4"><a href="#">Travel</a></li>
+</ul></div>
+</div>
+</nav>
+</div>
+</header>
+<div class="clearfix" id="main">
+<div class="inner-wrap clearfix">
+{{ text }}
+
+		</div>
+</div>
+<footer class="clearfix" id="colophon">
+<div class="footer-socket-wrapper clearfix">
+<div class="inner-wrap">
+{{ links }}
+<div class="footer-socket-area">
+<div class="footer-socket-right-section">
+</div>
+<div class="footer-socket-left-sectoin">
+<div class="copyright">Copyright  2018 <a href="#" title="{{ keyword }}"><span>{{ keyword }}</span></a>. All rights reserved.</div> </div>
+</div>
+</div>
+</div>
+</footer>
+<a href="#" id="scroll-up"><i class="fa fa-chevron-up"></i></a>
+</div>
+
+
+</body>
+</html>";s:4:"text";s:4782:"Inndelingsskift romertall og vanlige tall Inndelingsskift er en funksjon som lager inndelinger i dokumentet ditt som lar deg ha forskjellige standardiserte topptekster og bunntekster. Klikk da på Neste side under Inndelingsskift. Sep 10, 2008 · Viktig informasjon. Trykk OK Du vil nå se at tallformatet i inndeling 1 har blitt til romertall, mens tallene i inndeling 2 fortsatt er vanlige tall. Funksjoner på Engelsk og Norsk kommer vi ikke utenom. Tall og siffer. Vi benytter cookies til analyseformål, tilpasning av innhold og annonser og for å videreutvikle våre tjenester. Hvordan får man en overskrift til å omfavne både inndelingen i starten av et dokument (som har sidetall med romertall) og resten av dokumentet (som har sidetall med vanlige tall? Skrivereglene følger offisiell norsk rettskrivning. Det neste vi skal gjøre er å få sidenummereringen i inndeling 2 til å starte på 1 (siden dette er første side i oppgaven) Få sidenummereringen til å telle fra 1 i ny inndeling 1. Korrekturavdelingen.no tilbyr veiledning i rettskrivning og tegnsetting. Korrekturavdelingen.no tilbyr veiledning i rettskrivning og tegnsetting. For de fleste er det mest usikkerhet knyttet til bruken av mellomrom ved store tall eller telefonnummer, om et tall skal skrives med bokstaver eller siffer og om hvordan datoer skal skrives. Hei. Regelen for romertall sier ganske enkelt at når et mindre tall står foran et større, skal det lille tallet trekkes fra det store. Romertall er et tallsystem som stammer fra etruskerne, og som ble overtatt og videreført av romerne. Det er ikke noe problem at man først trekker fra og så legger til. i den første inndelingen har jeg små romertall og i den andre inndelingen har jeg vanlige tall. Tall og siffer. Skriveregler og råd om rettskrivning og tegnsetting. Hvordan skal tall skrives? Hvordan skal tall skrives? Microsoft har valgt å gi alle formler i Excel forskjellige navn på forskjellige språk, og det kan jo gi aldeles grå hår når du har funnet en knalloppskrift på nettet som er helt ubrukelig i Norsk Excel. Skriveregler og råd om rettskrivning og tegnsetting. Her finner du en søkbar tabell med Excel funksjoner på engelsk og norsk. Den ray-finned fisk er godt kjent for hardførhet, og er ofte funnet i vannet som de fleste andre fisk ville dø i. Romertall: Om bruk av romertall og hvordan man regner om til arabiske tall. Skrivereglene følger offisiell norsk rettskrivning. Page 2 of 4. Om du vil ha forskjellig topptekst på kapitlene i dokumentet, kan du gjøre det ved hjelp av Inndelinger. Klikk på Oppsett-fanen og så på Skift. Korrekturavdelingen.no tilbyr veiledning i rettskrivning og tegnsetting. Dette kan du bruke inndelingsskift til. For de fleste er det mest usikkerhet knyttet til bruken av mellomrom ved store tall eller telefonnummer, om et tall skal skrives med bokstaver eller siffer og om hvordan datoer skal skrives. Tallsystemet har også dannet grunnlaget for flere latinske bokstaver.  Hvis du vil ha to typer sidenummerering (f.eks romertall og så vanlige tall) må du legge til en inndelingsskift. Pupfish er det vanlige navnet for liten killfish som utgjør Cyprinodontidae familien av fisk. Tall og siffer. Eksempel på bruk av romertall i kirken San Giorgio dei Genovesi i Palermo på Sicilia. Jeg har lagt til forskjellige sidetall i ulike inndelinger i word-dokumentet mitt. Slik skriver du tall og siffer. Inndelinger Om du for eksempel vil sidenummerere de første sidene i dokumentet med romertall, og resten av dokumentet med vanlige tall, kan du ikke gjøre det uten inndelinger. Skrivereglene følger offisiell norsk rettskrivning. Skriveregler og råd om rettskrivning og tegnsetting. Tabellen viser også hvilke funksjoner som er nye i Excel 2013. For eksempel vil du ha romertall i enkelte deler av dokumentet, og vanlige tall i resten av dokumentet. Denne kirken er dekket av gravminner i … Hei! Hvordan skal tall skrives? Les mer her Fordypningsoppgaver Hensikten med en fordypningsoppgave er å vise at du kan finne informasjon, velge ut, vurdere og bearbeide informasjon, og presentere funnene du har gjort, på en selvstendig og reflektert måte. Korrekturavdelingen.no tilbyr veiledning i rettskrivning og tegnsetting. Microsoft har valgt å gi alle formler i Excel forskjellige navn på forskjellige språk, og det kan jo gi aldeles grå hår når du har funnet en knalloppskrift på nettet som er helt ubrukelig i Norsk Excel. Tallsystemet har også dannet grunnlaget for flere latinske bokstaver. For de fleste er det mest usikkerhet knyttet til bruken av mellomrom ved store tall eller telefonnummer, om et tall skal skrives med bokstaver eller siffer og om hvordan datoer skal skrives. Funksjoner på Engelsk og Norsk kommer vi ikke utenom. ";s:7:"keyword";s:32:"romertall og vanlige tall i word";s:5:"links";s:10712:"<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=billboard-charts-2017'>Billboard Charts 2017</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=johnny-english-2018'>Johnny English 2018</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=pubg-event-mission'>Pubg Event Mission</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=tannlege-%C3%A5samyrane'>Tannlege åsamyrane</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=spisekroken-sartor-meny'>Spisekroken Sartor Meny</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=velkomstdrink-punsj'>Velkomstdrink Punsj</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=printer-nhh-mac'>Printer Nhh Mac</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=artige-teamoppgaver'>Artige Teamoppgaver</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=fornebu-hangar-3'>Fornebu Hangar 3</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=minecraft-sorting-system'>Minecraft Sorting System</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=Kalle-og-Molo'>Kalle Og Molo</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=on-ramp-matlab'>On Ramp Matlab</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=twinhead-wotlk'>Twinhead Wotlk</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=hvordan-legge-flere-bilder-sammen'>Hvordan Legge Flere Bilder Sammen</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=saranda-albania'>Saranda Albania</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=iphone-8-plus-features'>Iphone 8 Plus Features</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=melanie-brown'>Melanie Brown</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=tsm-twitter'>Tsm Twitter</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=marcus-navn'>Marcus Navn</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=topp-filmer-2017'>Topp Filmer 2017</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=sjoa-raftingsenter'>Sjoa Raftingsenter</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=hf-kafe'>Hf Kafe</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=blade-runner-trailer'>Blade Runner Trailer</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=fanakofte-herre'>Fanakofte Herre</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=egypt-historie-for-barn'>Egypt Historie For Barn</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=fadderuke-forum'>Fadderuke Forum</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=bamble-kommune-stillinger'>Bamble Kommune Stillinger</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=Sea-of-Solitude'>Sea Of Solitude</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=os-from-usb'>Os From Usb</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=narvesen-tour-2018'>Narvesen Tour 2018</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=amazon-norge-prime'>Amazon Norge Prime</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=here-and-now-season-2'>Here And Now Season 2</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=gratis-nettbasert-fotokurs'>Gratis Nettbasert Fotokurs</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=webkamera-flesland-ute'>Webkamera Flesland Ute</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=h%C3%B8gskoler-i-trondheim'>Høgskoler I Trondheim</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=brettspill-test-2017'>Brettspill Test 2017</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=run-3'>Run 3</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=%C3%A5pningstider-butikker-farsund'>åpningstider Butikker Farsund</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=strex-kontakt'>Strex Kontakt</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=%C3%A5-finne-verb-nynorsk'>å Finne Verb Nynorsk</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=Naturhist...-museum'>Naturhist... Museum</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=bitdefender-online-download'>Bitdefender Online Download</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=update-r-from-rstudio'>Update R From Rstudio</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=permisjon-uv-uio'>Permisjon Uv Uio</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=ark-ragnarok-crates'>Ark Ragnarok Crates</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=adele-adkins-21-sanger'>Adele Adkins 21 Sanger</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=sartor-senter-butikker'>Sartor Senter Butikker</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=streaming-music'>Streaming Music</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=assassin%27s-creed-3-characters'>Assassin's Creed 3 Characters</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=piazza-ntnu-algdat'>Piazza Ntnu Algdat</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=nm-golf-2018'>Nm Golf 2018</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=rihanna-imdb'>Rihanna Imdb</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=best-skyblock-2018'>Best Skyblock 2018</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=anita-hegerland'>Anita Hegerland</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=tera-wiki'>Tera Wiki</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=what-is-csgo'>What Is Csgo</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=chowder-cartoon'>Chowder Cartoon</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=imdb-antman-and-the-wasp'>Imdb Antman And The Wasp</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=vinterferie-2019-oslo'>Vinterferie 2019 Oslo</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=mat1100-h%C3%B8st-2016'>Mat1100 Høst 2016</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=parkering-lovisenberg-diakonale-h%C3%B8gskole'>Parkering Lovisenberg Diakonale Høgskole</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=chennai'>Chennai</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=ea-help'>Ea Help</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=konvertere-png-til-pdf'>Konvertere Png Til Pdf</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=favourite-books'>Favourite Books</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=castle-season-9-episode-1'>Castle Season 9 Episode 1</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=james-marsden'>James Marsden</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=oslo-klatrepark-bursdag'>Oslo Klatrepark Bursdag</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=google-translate-apple'>Google Translate Apple</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=l%C3%A6re-engelsk-lydbok-gratis'>Lære Engelsk Lydbok Gratis</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=desperado-crate-skins'>Desperado Crate Skins</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=ipad-models-wikipedia'>Ipad Models Wikipedia</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=kombinert-holmenkollen-2018'>Kombinert Holmenkollen 2018</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=rosa-ps4-kontroll'>Rosa Ps4 Kontroll</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=s%C3%B8rlandsparken-kristiansand'>Sørlandsparken Kristiansand</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=fagskole-elektronikk'>Fagskole Elektronikk</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=hdmi-til-scart-biltema'>Hdmi Til Scart Biltema</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=power-ullev%C3%A5l'>Power Ullevål</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=ole-ivars-danseband'>Ole Ivars Danseband</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=uis-ar'>Uis Ar</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=osebx-vekting'>Osebx Vekting</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=spansk-norsk-setning-oversetter'>Spansk Norsk Setning Oversetter</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=reactivate-wow-account-free'>Reactivate Wow Account Free</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=fortnight-urban-dictionary'>Fortnight Urban Dictionary</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=abbyy-finereader'>Abbyy Finereader</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=hvilken-aldersgrense-er-det-p%C3%A5-snapchat'>Hvilken Aldersgrense Er Det På Snapchat</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=sio-vakttelefon'>Sio Vakttelefon</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=Chicago'>Chicago</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=highest-ranking-imdb'>Highest Ranking Imdb</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=lege-bergen-student'>Lege Bergen Student</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=kj%C3%B8pe-brukt-macbook-air'>Kjøpe Brukt Macbook Air</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=apple-tv-4k-64gb'>Apple Tv 4k 64gb</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=ledig-stilling-museum'>Ledig Stilling Museum</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=ssb-folkemengde'>Ssb Folkemengde</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=downgrade-from-sierra'>Downgrade From Sierra</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=komedie-2017'>Komedie 2017</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=domus-medica-4'>Domus Medica 4</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=ting-%C3%A5-bygge-p%C3%A5-minecraft'>Ting å Bygge På Minecraft</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=psykologi-2-ledelse'>Psykologi 2 Ledelse</a>,
+";s:7:"expired";i:-1;}

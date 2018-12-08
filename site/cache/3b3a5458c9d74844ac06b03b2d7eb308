@@ -1,0 +1,532 @@
+a:5:{s:8:"template";s:8503:"<!DOCTYPE html>
+<html lang="nb-NO">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<link href="http://gmpg.org/xfn/11" rel="profile"/>
+
+<title>{{ keyword }}</title>
+
+<style id="colormag_style-css" media="all" rel="stylesheet" type="text/css">
+
+html, body, div, span, h3, h4, p, a, ul, li {
+	border: 0;
+	font: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+html {
+	overflow-y: scroll; 
+	-webkit-text-size-adjust: 100%; 
+	-ms-text-size-adjust: 100%; 
+}
+footer,
+header,
+nav {
+	display: block;
+}
+ul {
+	list-style: none;
+}
+a:focus {
+	outline: thin dotted;
+}
+a:hover,
+a:active {
+	outline: 0;
+}
+
+body {
+	color: #444444;
+	font: 16px 'Open Sans', serif;
+	line-height: 1.6;
+	word-wrap: break-word;
+}
+body {
+	background-color: #eaeaea;
+}
+/* Headings */
+h3, h4 {
+	padding-bottom: 18px;
+	color: #333333;
+	font-weight: normal;
+	font-family: 'Open Sans', sans-serif;
+}
+h3 { font-size: 34px; line-height: 1.2; }
+h4 { font-size: 30px; line-height: 1.2; }
+
+/* =TEXT ELEMENTS
+----------------------------------------------- */
+p {
+	line-height: 1.6;
+	margin-bottom: 15px;
+	font-family: 'Open Sans', serif;
+	font-size: 15px;
+}
+i {
+	font-style: italic;
+}
+
+ul {
+	list-style: none;
+}
+li > ul {
+	margin: 0 0 0 10px;
+}
+
+a {
+	color: #289dcc;
+	text-decoration: none;
+}
+a:focus, a:active, a:hover {
+	text-decoration: none;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.clearfix {
+	display: inline-block;
+}
+.clearfix {
+	display: block;
+}
+
+body {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-size: cover;
+}
+#page {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.wide {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.wide #page {
+	max-width: 100%;
+}
+.inner-wrap {
+	margin: 0 auto;
+	max-width: 1140px;
+}
+
+#masthead {
+}
+#header-text-nav-container {
+	background-color: #FFFFFF;
+}
+#header-text-nav-wrap {
+	padding: 20px 0 25px;
+}
+#header-left-section {
+	float: left;
+}
+#header-text {
+	float: left;
+	padding-right: 20px;
+}
+#site-title {
+	padding-bottom: 0;
+	line-height: 1.2;
+}
+#site-title a {
+	color: #289dcc;
+	font-size: 46px;
+}
+#site-description {
+	line-height: 24px;
+	font-size: 16px;
+	color: #666666;
+	padding-bottom: 0px;
+	font-family: 'Open Sans', serif;
+}
+#header-right-section {
+	float: right;
+}
+
+.fa {
+	font-size: 22px;
+	color: #CCCCCC;
+}
+
+
+nav li > ul {
+	margin: 0;
+	list-style: none;
+}
+#site-navigation {
+   box-shadow: 0 0 2px rgba(0, 0, 0, 0.1) inset;
+   position: relative;
+   background-color: #232323;
+   border-top: 4px solid #289dcc;
+}
+#site-navigation .inner-wrap {
+   position: relative;
+}
+.main-navigation {
+	width: 100%;
+	text-align: center;
+}
+.main-navigation li {
+	float: left;
+	position: relative;
+	font-family: 'Open Sans', serif;
+	font-weight: 300;
+}
+.main-navigation a {
+   color: #ffffff;
+	display: block;
+	float: none;
+	font-size: 14px;
+   font-weight: 600;
+	padding: 10px 12px;
+   text-transform: uppercase;
+}
+.main-navigation a:hover,
+.main-navigation ul li:hover > a {
+}
+.main-navigation a:hover,
+.main-navigation ul li:hover > a {
+	color: #ffffff;
+}
+.main-navigation a:hover,
+.main-navigation ul li:hover > a {
+   background-color: #289dcc;
+}
+.main-navigation li.page_item_has_children > a:after {
+   font-family: FontAwesome;
+   font-style: normal;
+   font-weight: normal;
+   text-decoration: inherit;
+   color: #ffffff;
+   font-size: 14px;
+   padding-left: 6px;
+}
+.main-navigation li.page_item_has_children > a:after {
+   content: "\f107";
+   color: #ffffff;
+}
+/* =DROP DOWN
+----------------------------------------------- */
+.main-navigation .children {
+   background-color: #232323;
+}
+.main-navigation ul li ul {
+	display:none;
+	z-index: 100;
+}
+.main-navigation ul li:hover ul {
+	display:block;
+}
+.main-navigation ul li ul {
+	position: absolute;
+	width: 200px;
+	top: 42px;
+}
+.main-navigation ul li ul li {
+	float: none;
+}
+.main-navigation ul li ul li a {
+   border-top: none;
+}
+.main-navigation ul li ul li a {
+	float: none;
+	font-size: 14px;
+	height: 100%;
+	padding: 10px 15px;
+	color: #ffffff;
+	width: 170px;
+   text-align: left;
+   text-transform: none;
+}
+.main-navigation ul li ul li a:hover,
+.main-navigation ul li ul li:hover > a {
+   color: #FFFFFF;
+   background-color: #289dcc;
+}
+
+/* =RESPONSIVE MENU
+----------------------------------------------- */
+.menu-toggle {
+	display: none;
+	cursor: pointer;
+}
+.site-header .menu-toggle {
+	color: #ffffff;
+	margin: 0;
+	text-align: center;
+	font-family: 'Open Sans', serif;
+   padding-bottom: 0;
+}
+.site-header .menu-toggle:hover {
+   background-color: #289dcc;
+}
+.site-header .menu-toggle:before {
+	content: "\f0c9";
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: inherit;
+	font-size: 23px;
+	color: #ffffff;
+   padding: 8px 12px;
+   display: block;
+}
+
+#main {
+	padding-top: 30px;
+	padding-bottom: 20px;
+	background-color: #ffffff;
+}
+
+#colophon {
+	font-size: 14px;
+	line-height: 1.4;
+}
+
+
+.footer-socket-wrapper {
+   padding: 20px 0px 50px;
+   background-color: #303440;
+}
+.footer-socket-area {
+   width: 100%;
+}
+.footer-socket-right-section {
+   float: right;
+}
+.footer-socket-wrapper .copyright {
+   color: #b1b6b6;
+   float: left;
+   font-size: 14px;
+   max-width: 50%;
+}
+.footer-socket-wrapper .copyright a {
+   color: #b1b6b6;
+   border-bottom: 1px solid #5a5d62;
+}
+.footer-socket-wrapper .copyright a:hover {
+   color: #ffffff;
+}
+
+/* =SCROLL UP
+----------------------------------------------- */
+a#scroll-up {
+	bottom: 20px;
+	position: fixed;
+	right: 20px;
+	display: none;
+	opacity: 0.5;
+	filter:alpha(opacity=50); /* For IE8 and earlier */
+}
+a#scroll-up i {
+	font-size: 40px;
+	color: #289dcc;
+}
+a#scroll-up:hover {
+	opacity: 1;
+	filter:alpha(opacity=100); /* For IE8 and earlier */
+}
+
+
+/* Sharing Section */
+#site-navigation {
+   z-index: 999;
+}
+
+/* Gallery Post Format */
+
+
+/*--------------------------------------------------------------
+Responsive Structure
+--------------------------------------------------------------*/
+@media screen and (max-width: 1190px) {
+   #page {
+      width: 97%;
+   }
+   .wide #page {
+      width: 100%;
+   }
+   .inner-wrap {
+      width: 94%;
+   }
+}
+@media screen and (max-width:768px) {
+   #header-text-nav-wrap {
+      padding: 10px 0;
+   }
+   #header-left-section {
+      float: none;
+      margin-bottom: 10px;
+   }
+   #header-text {
+      float: none;
+      text-align: center;
+      padding-right: 0;
+   }
+   #header-right-section {
+      float: none;
+   }
+   .menu-toggle {
+      display: block;
+      float: left;
+   }
+   .main-navigation ul {
+      display: none;
+   }
+}
+@media screen and (max-width: 600px) {
+   .footer-socket-right-section {
+      float: none;
+      text-align: center;
+   }
+   .footer-socket-wrapper .copyright {
+      float: none;
+      max-width: 100%;
+      text-align: center;
+   }
+}
+</style>
+
+</head>
+<body class=" wide">
+<div class="hfeed site" id="page">
+<header class="site-header clearfix" id="masthead">
+<div class="clearfix" id="header-text-nav-container">
+<div class="inner-wrap">
+<div class="clearfix" id="header-text-nav-wrap">
+<div id="header-left-section">
+<div class="" id="header-text">
+<h3 id="site-title">
+<a href="#" rel="home" title="{{ keyword }}">{{ keyword }}</a>
+</h3>
+<p id="site-description">Advice !!</p>
+
+</div>
+</div>
+<div id="header-right-section">
+</div>
+</div>
+</div>
+<nav class="main-navigation clearfix" id="site-navigation" role="navigation">
+<div class="inner-wrap clearfix">
+<h4 class="menu-toggle"></h4>
+<div class="menu">
+<ul>
+<li class="page_item page-item-46"><a href="#">insurance</a></li>
+<li class="page_item page-item-35"><a href="#">Contact</a></li>
+<li class="page_item page-item-66"><a href="#">Home</a></li>
+<li class="page_item page-item-18"><a href="#">Student </a></li>
+<li class="page_item page-item-4"><a href="#">Travel</a></li>
+</ul></div>
+</div>
+</nav>
+</div>
+</header>
+<div class="clearfix" id="main">
+<div class="inner-wrap clearfix">
+{{ text }}
+
+		</div>
+</div>
+<footer class="clearfix" id="colophon">
+<div class="footer-socket-wrapper clearfix">
+<div class="inner-wrap">
+{{ links }}
+<div class="footer-socket-area">
+<div class="footer-socket-right-section">
+</div>
+<div class="footer-socket-left-sectoin">
+<div class="copyright">Copyright  2018 <a href="#" title="{{ keyword }}"><span>{{ keyword }}</span></a>. All rights reserved.</div> </div>
+</div>
+</div>
+</div>
+</footer>
+<a href="#" id="scroll-up"><i class="fa fa-chevron-up"></i></a>
+</div>
+
+
+</body>
+</html>";s:4:"text";s:2162:"Les også: Windows 10 spørsmål og svar Her finner du grunnleggende og praktisk informasjon om Windows 10, pluss flere nyttige tips og triks, både for … Da kan det være nyttig å ha enkel tilgang til denne siden. Nå er den her! I Word, er en mal som brukes til å angi menyalternativene, verktøylinjen, og standardstiler og tekst. Da kan det være nyttig å ha enkel tilgang til denne siden. Har du en favoritt-nettside du besøker hver dag? Last ned oppdatering til Windows 10 i dag Microsoft har sluppet den siste halvårsoppdateringen av Windows 10. Last ned oppdatering til Windows 10 i dag Microsoft har sluppet den siste halvårsoppdateringen av Windows 10. Opprette en snarvei på skrivebordet for et Office-program. Dette er en guide for deg som bruker Windows 10, og for deg som vurderer å oppgradere fra Windows 7 eller Windows 8.1. I Word, er en mal som brukes til å angi menyalternativene, verktøylinjen, og standardstiler og tekst. Dette er en guide for deg som bruker Windows 10, og for deg som vurderer å oppgradere fra Windows 7 eller Windows 8.1. Les også: Windows 10 spørsmål og svar Her finner du grunnleggende og praktisk informasjon om Windows 10, pluss flere nyttige tips og triks, både for … Hvis du bruker Office 2016, 2013 eller 2010 og Windows 8 eller 10, kan du opprette en snarvei på skrivebordet i Windows, ikke i Office-programmet. Oppdater til den nye versjonen i dag og få … Du kan for eksempel legge en snarvei til dennne nettsiden på skrivebordet i Windows. Nå er den her! Har du en favoritt-nettside du besøker hver dag? Oppdater til den nye versjonen i dag og … Når du først åpne et tomt dokument, legger Word automatisk Normal.dot-malen til dokumentet, selv om du kan angi en annen mal. Opprette en snarvei på skrivebordet for et Office-program. Når du først åpne et tomt dokument, legger Word automatisk Normal.dot-malen til dokumentet, selv om du kan angi en annen mal. Hvis du bruker Office 2016, 2013 eller 2010 og Windows 8 eller 10, kan du opprette en snarvei på skrivebordet i Windows, ikke i …  Du kan for eksempel legge en snarvei til dennne nettsiden på skrivebordet i Windows. ";s:7:"keyword";s:33:"snarvei til skrivebord windows 10";s:5:"links";s:7738:"<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=bamboo-garden-t%C3%B8nsberg-meny'>Bamboo Garden Tønsberg Meny</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=vimeo-anjali-sud'>Vimeo Anjali Sud</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=eventhubs-smash-4'>Eventhubs Smash 4</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=popcorn-time-online'>Popcorn Time Online</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=youtube-the-dance'>Youtube The Dance</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=whats-inside-gamescom-invitational-crate'>Whats Inside Gamescom Invitational Crate</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=nordea-mobilbank'>Nordea Mobilbank</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=lefdal-kristiansand'>Lefdal Kristiansand</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=sticks-n-sushi-tivoli-haven'>Sticks N Sushi Tivoli Haven</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=newton-episoder'>Newton Episoder</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=google-map-license'>Google Map License</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=aperol-spania'>Aperol Spania</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=maria-doyle-kennedy'>Maria Doyle Kennedy</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=g502-rgb'>G502 Rgb</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=barnekl%C3%A6r-str%C3%B8mstad'>Barneklær Strømstad</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=twitch-pgl-dota-2'>Twitch Pgl Dota 2</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=www-gruble-net-gamel'>Www Gruble Net Gamel</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=italiensk-pizza-oslo-sentrum'>Italiensk Pizza Oslo Sentrum</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=it-1-eksamen-eksempel'>It 1 Eksamen Eksempel</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=skam-sesong-3-episode-10'>Skam Sesong 3 Episode 10</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=russ-2018-daniel'>Russ 2018 Daniel</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=rockstar-game-services'>Rockstar Game Services</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=deji-olatunji'>Deji Olatunji</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=pillars-of-eternity-2-ranger-abilities'>Pillars Of Eternity 2 Ranger Abilities</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=hvordan-lage-sp%C3%A5-bordkort'>Hvordan Lage Spå Bordkort</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=vimeo-anjali-sud'>Vimeo Anjali Sud</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=nba-playoffs-2018'>Nba Playoffs 2018</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=h%C3%B8yreklikk-mac-mus'>Høyreklikk Mac Mus</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=underholdningsavdelingen-nrk'>Underholdningsavdelingen Nrk</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=samfunnsvitenskap-definisjon'>Samfunnsvitenskap Definisjon</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=james-franco-wife'>James Franco Wife</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=kwh-til-joule-formel'>Kwh Til Joule Formel</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=microsoft-bookings-e3'>Microsoft Bookings E3</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=russebuss-sj%C3%A5f%C3%B8r-kontrakt'>Russebuss Sjåfør Kontrakt</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=statped-trondheim'>Statped Trondheim</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=christopher-tolkien'>Christopher Tolkien</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=how-many-players-play-fortnite'>How Many Players Play Fortnite</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=glemt-passord-nord-universitet'>Glemt Passord Nord Universitet</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=inne-aktiviteter-for-barn-i-barnehagen'>Inne Aktiviteter For Barn I Barnehagen</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=catch-me-if-you-can-musical'>Catch Me If You Can Musical</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=tannlegevakt-holmestrand'>Tannlegevakt Holmestrand</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=tobias-santelmann'>Tobias Santelmann</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=morsom-invitasjon-til-50-%C3%A5rs-dag'>Morsom Invitasjon Til 50 års Dag</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=gamle-norske-dukker'>Gamle Norske Dukker</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=%C3%A5-bruke-p%C3%A5-spansk'>å Bruke På Spansk</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=storsalen-menighet'>Storsalen Menighet</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=viaplay-feilkode-4000'>Viaplay Feilkode 4000</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=reduce-file-size-jpg'>Reduce File Size Jpg</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=ski-kommunestyre'>Ski Kommunestyre</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=v%C3%A4tternrundan'>Vätternrundan</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=p-risjakt'>P Risjakt</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=dr%C3%B8ftende-artikkel-innledning'>Drøftende Artikkel Innledning</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=privatpraktiserende-psykolog-%C3%A5lesund'>Privatpraktiserende Psykolog ålesund</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=studentweb-ansgar'>Studentweb Ansgar</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=amuletten-1'>Amuletten 1</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=gratis-parkering-l%C3%B8ren'>Gratis Parkering Løren</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=st%C3%B8rrelser-kl%C3%A6r-tabell-hm'>Størrelser Klær Tabell Hm</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=tjafs-kryssord'>Tjafs Kryssord</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=twitch-app-forums'>Twitch App Forums</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=goparken'>Goparken</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=forbundsrepublikk-definisjon'>Forbundsrepublikk Definisjon</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=Marikken'>Marikken</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=film-braveheart'>Film Braveheart</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=photo-checker-google'>Photo Checker Google</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=luxushair-clip-on'>Luxushair Clip On</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=fl-studio-mac'>Fl Studio Mac</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=karneval-kostymer-barn'>Karneval Kostymer Barn</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=utd%C3%B8dde-dyr'>Utdødde Dyr</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=conan-exile-thralls'>Conan Exile Thralls</a>,
+";s:7:"expired";i:-1;}

@@ -1,0 +1,536 @@
+a:5:{s:8:"template";s:8503:"<!DOCTYPE html>
+<html lang="nb-NO">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<link href="http://gmpg.org/xfn/11" rel="profile"/>
+
+<title>{{ keyword }}</title>
+
+<style id="colormag_style-css" media="all" rel="stylesheet" type="text/css">
+
+html, body, div, span, h3, h4, p, a, ul, li {
+	border: 0;
+	font: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+html {
+	overflow-y: scroll; 
+	-webkit-text-size-adjust: 100%; 
+	-ms-text-size-adjust: 100%; 
+}
+footer,
+header,
+nav {
+	display: block;
+}
+ul {
+	list-style: none;
+}
+a:focus {
+	outline: thin dotted;
+}
+a:hover,
+a:active {
+	outline: 0;
+}
+
+body {
+	color: #444444;
+	font: 16px 'Open Sans', serif;
+	line-height: 1.6;
+	word-wrap: break-word;
+}
+body {
+	background-color: #eaeaea;
+}
+/* Headings */
+h3, h4 {
+	padding-bottom: 18px;
+	color: #333333;
+	font-weight: normal;
+	font-family: 'Open Sans', sans-serif;
+}
+h3 { font-size: 34px; line-height: 1.2; }
+h4 { font-size: 30px; line-height: 1.2; }
+
+/* =TEXT ELEMENTS
+----------------------------------------------- */
+p {
+	line-height: 1.6;
+	margin-bottom: 15px;
+	font-family: 'Open Sans', serif;
+	font-size: 15px;
+}
+i {
+	font-style: italic;
+}
+
+ul {
+	list-style: none;
+}
+li > ul {
+	margin: 0 0 0 10px;
+}
+
+a {
+	color: #289dcc;
+	text-decoration: none;
+}
+a:focus, a:active, a:hover {
+	text-decoration: none;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.clearfix {
+	display: inline-block;
+}
+.clearfix {
+	display: block;
+}
+
+body {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-size: cover;
+}
+#page {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.wide {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.wide #page {
+	max-width: 100%;
+}
+.inner-wrap {
+	margin: 0 auto;
+	max-width: 1140px;
+}
+
+#masthead {
+}
+#header-text-nav-container {
+	background-color: #FFFFFF;
+}
+#header-text-nav-wrap {
+	padding: 20px 0 25px;
+}
+#header-left-section {
+	float: left;
+}
+#header-text {
+	float: left;
+	padding-right: 20px;
+}
+#site-title {
+	padding-bottom: 0;
+	line-height: 1.2;
+}
+#site-title a {
+	color: #289dcc;
+	font-size: 46px;
+}
+#site-description {
+	line-height: 24px;
+	font-size: 16px;
+	color: #666666;
+	padding-bottom: 0px;
+	font-family: 'Open Sans', serif;
+}
+#header-right-section {
+	float: right;
+}
+
+.fa {
+	font-size: 22px;
+	color: #CCCCCC;
+}
+
+
+nav li > ul {
+	margin: 0;
+	list-style: none;
+}
+#site-navigation {
+   box-shadow: 0 0 2px rgba(0, 0, 0, 0.1) inset;
+   position: relative;
+   background-color: #232323;
+   border-top: 4px solid #289dcc;
+}
+#site-navigation .inner-wrap {
+   position: relative;
+}
+.main-navigation {
+	width: 100%;
+	text-align: center;
+}
+.main-navigation li {
+	float: left;
+	position: relative;
+	font-family: 'Open Sans', serif;
+	font-weight: 300;
+}
+.main-navigation a {
+   color: #ffffff;
+	display: block;
+	float: none;
+	font-size: 14px;
+   font-weight: 600;
+	padding: 10px 12px;
+   text-transform: uppercase;
+}
+.main-navigation a:hover,
+.main-navigation ul li:hover > a {
+}
+.main-navigation a:hover,
+.main-navigation ul li:hover > a {
+	color: #ffffff;
+}
+.main-navigation a:hover,
+.main-navigation ul li:hover > a {
+   background-color: #289dcc;
+}
+.main-navigation li.page_item_has_children > a:after {
+   font-family: FontAwesome;
+   font-style: normal;
+   font-weight: normal;
+   text-decoration: inherit;
+   color: #ffffff;
+   font-size: 14px;
+   padding-left: 6px;
+}
+.main-navigation li.page_item_has_children > a:after {
+   content: "\f107";
+   color: #ffffff;
+}
+/* =DROP DOWN
+----------------------------------------------- */
+.main-navigation .children {
+   background-color: #232323;
+}
+.main-navigation ul li ul {
+	display:none;
+	z-index: 100;
+}
+.main-navigation ul li:hover ul {
+	display:block;
+}
+.main-navigation ul li ul {
+	position: absolute;
+	width: 200px;
+	top: 42px;
+}
+.main-navigation ul li ul li {
+	float: none;
+}
+.main-navigation ul li ul li a {
+   border-top: none;
+}
+.main-navigation ul li ul li a {
+	float: none;
+	font-size: 14px;
+	height: 100%;
+	padding: 10px 15px;
+	color: #ffffff;
+	width: 170px;
+   text-align: left;
+   text-transform: none;
+}
+.main-navigation ul li ul li a:hover,
+.main-navigation ul li ul li:hover > a {
+   color: #FFFFFF;
+   background-color: #289dcc;
+}
+
+/* =RESPONSIVE MENU
+----------------------------------------------- */
+.menu-toggle {
+	display: none;
+	cursor: pointer;
+}
+.site-header .menu-toggle {
+	color: #ffffff;
+	margin: 0;
+	text-align: center;
+	font-family: 'Open Sans', serif;
+   padding-bottom: 0;
+}
+.site-header .menu-toggle:hover {
+   background-color: #289dcc;
+}
+.site-header .menu-toggle:before {
+	content: "\f0c9";
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: inherit;
+	font-size: 23px;
+	color: #ffffff;
+   padding: 8px 12px;
+   display: block;
+}
+
+#main {
+	padding-top: 30px;
+	padding-bottom: 20px;
+	background-color: #ffffff;
+}
+
+#colophon {
+	font-size: 14px;
+	line-height: 1.4;
+}
+
+
+.footer-socket-wrapper {
+   padding: 20px 0px 50px;
+   background-color: #303440;
+}
+.footer-socket-area {
+   width: 100%;
+}
+.footer-socket-right-section {
+   float: right;
+}
+.footer-socket-wrapper .copyright {
+   color: #b1b6b6;
+   float: left;
+   font-size: 14px;
+   max-width: 50%;
+}
+.footer-socket-wrapper .copyright a {
+   color: #b1b6b6;
+   border-bottom: 1px solid #5a5d62;
+}
+.footer-socket-wrapper .copyright a:hover {
+   color: #ffffff;
+}
+
+/* =SCROLL UP
+----------------------------------------------- */
+a#scroll-up {
+	bottom: 20px;
+	position: fixed;
+	right: 20px;
+	display: none;
+	opacity: 0.5;
+	filter:alpha(opacity=50); /* For IE8 and earlier */
+}
+a#scroll-up i {
+	font-size: 40px;
+	color: #289dcc;
+}
+a#scroll-up:hover {
+	opacity: 1;
+	filter:alpha(opacity=100); /* For IE8 and earlier */
+}
+
+
+/* Sharing Section */
+#site-navigation {
+   z-index: 999;
+}
+
+/* Gallery Post Format */
+
+
+/*--------------------------------------------------------------
+Responsive Structure
+--------------------------------------------------------------*/
+@media screen and (max-width: 1190px) {
+   #page {
+      width: 97%;
+   }
+   .wide #page {
+      width: 100%;
+   }
+   .inner-wrap {
+      width: 94%;
+   }
+}
+@media screen and (max-width:768px) {
+   #header-text-nav-wrap {
+      padding: 10px 0;
+   }
+   #header-left-section {
+      float: none;
+      margin-bottom: 10px;
+   }
+   #header-text {
+      float: none;
+      text-align: center;
+      padding-right: 0;
+   }
+   #header-right-section {
+      float: none;
+   }
+   .menu-toggle {
+      display: block;
+      float: left;
+   }
+   .main-navigation ul {
+      display: none;
+   }
+}
+@media screen and (max-width: 600px) {
+   .footer-socket-right-section {
+      float: none;
+      text-align: center;
+   }
+   .footer-socket-wrapper .copyright {
+      float: none;
+      max-width: 100%;
+      text-align: center;
+   }
+}
+</style>
+
+</head>
+<body class=" wide">
+<div class="hfeed site" id="page">
+<header class="site-header clearfix" id="masthead">
+<div class="clearfix" id="header-text-nav-container">
+<div class="inner-wrap">
+<div class="clearfix" id="header-text-nav-wrap">
+<div id="header-left-section">
+<div class="" id="header-text">
+<h3 id="site-title">
+<a href="#" rel="home" title="{{ keyword }}">{{ keyword }}</a>
+</h3>
+<p id="site-description">Advice !!</p>
+
+</div>
+</div>
+<div id="header-right-section">
+</div>
+</div>
+</div>
+<nav class="main-navigation clearfix" id="site-navigation" role="navigation">
+<div class="inner-wrap clearfix">
+<h4 class="menu-toggle"></h4>
+<div class="menu">
+<ul>
+<li class="page_item page-item-46"><a href="#">insurance</a></li>
+<li class="page_item page-item-35"><a href="#">Contact</a></li>
+<li class="page_item page-item-66"><a href="#">Home</a></li>
+<li class="page_item page-item-18"><a href="#">Student </a></li>
+<li class="page_item page-item-4"><a href="#">Travel</a></li>
+</ul></div>
+</div>
+</nav>
+</div>
+</header>
+<div class="clearfix" id="main">
+<div class="inner-wrap clearfix">
+{{ text }}
+
+		</div>
+</div>
+<footer class="clearfix" id="colophon">
+<div class="footer-socket-wrapper clearfix">
+<div class="inner-wrap">
+{{ links }}
+<div class="footer-socket-area">
+<div class="footer-socket-right-section">
+</div>
+<div class="footer-socket-left-sectoin">
+<div class="copyright">Copyright  2018 <a href="#" title="{{ keyword }}"><span>{{ keyword }}</span></a>. All rights reserved.</div> </div>
+</div>
+</div>
+</div>
+</footer>
+<a href="#" id="scroll-up"><i class="fa fa-chevron-up"></i></a>
+</div>
+
+
+</body>
+</html>";s:4:"text";s:2260:"... De får ikke solgt den videre og Johnny Tønnesland fra Kristiansand kjøper den derfor i juni 1992. Det skal leveres overvannssystem som godkjennes av Kristiansand Ingeniørvesen. Kristiansand Eiendom Enheten er kommunens faginstans for fast eiendom og omfatter forvaltning, kjøp, salg, inn- og utleie, drift, vedlikehold, renhold og utvikling av kommunens eiendommer. Kristiansand kommunes Miljøpris 2018 gikk til firmaet Air Products AS. Ford Transcontinental innom i Lyngdal etter diesel. Han har aldri hatt skilter på Scaniaen. Varmeanlegg Varmeanlegget skal være vannbåren varme. JC 65577. Med vennlig hilsen Kristiansand ingeniørvesen . I morgen skal ingeniørvesenet i Kristiansand feie kvadraturen, og i flere gater vil det bli forbudt å parkere. Ingeniørvesenet har ansvar for vakt- og beredskapsordning hele året for våre anlegg innen vei, vann og avløp.  Tresse er åpnet for parkering, opplyser kommunen. Informasjon om tjenester, kulturarrangement, politiske saker og kommunens organisasjon. ... Denne Scania 82 ble levert ny til Kragerø Ingeniørvesen. Søknadsrutiner Dokumentasjon Innmålinger Kjell Løyning Kristiansand Ingeniørvesen VA Kjetil Breistein Songdalen kommune VA Nye Detaljer Kommunal forskrift for vann- … Velkommen til Porsgrunn kommune sin internettportal. 04.10.2018 Dette kan du gjøre i høstferien 2018. Skolene i Skien kommune har høstferie fra mandag 8. oktober til og med fredag 12. oktober. avløpskrafttak 69 1976» tydet på problemer som måtte løses .22 Det var et stort etterslep, og verken i kommunenes eget ingeniørvesen eller i det nye IVAR-systemet ble kloakkproble- mene i 1980-årene løst så raskt som det var skapt forventninger om . I nærmere 50 år har selskapet vært verdensledende innen miljøvern og sikkerhet til sjøs, offshore og landbaserte anlegg, og har utviklet et produkt som fjerner CO2 ved hjelp av membranteknologi. Hoved energikilde er luft til vann varmepumper, som henter energi fra uteluften. Da kan dere ringe Servicetorvet på 38 07 50 00, eller sende e-post til post.teknisk@kristiansand.kommune.no . Apr 12, 2013 · Fosen Vakt og Rengjøring kjøper den i juni 1995. Fortell oss gjerne om steder dere mener både vi og barna bør være spesielt på vakt. ";s:7:"keyword";s:32:"kristiansand ingeniørvesen vakt";s:5:"links";s:8458:"<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=fagskole-elektronikk'>Fagskole Elektronikk</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=ordg%C3%A5ter'>Ordgåter</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=sykehuset-namsos-ansatte'>Sykehuset Namsos Ansatte</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=empire-earth-2-steam'>Empire Earth 2 Steam</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=g%C3%B8rild-mauseth-barn'>Gørild Mauseth Barn</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=jojo-moyes-oppvekst'>Jojo Moyes Oppvekst</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=baker-brun-historie'>Baker Brun Historie</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=far-cry-5-zombie-dlc-release-date'>Far Cry 5 Zombie Dlc Release Date</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=kart-over-verden-med-navn-p%C3%A5-land'>Kart Over Verden Med Navn På Land</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=blogger-tiltalt-for-vold-forum'>Blogger Tiltalt For Vold Forum</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=thomasevangeliet-wiki'>Thomasevangeliet Wiki</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=vermintide-2-wiki'>Vermintide 2 Wiki</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=The-Twilight-Saga-%E2%80%93-E...'>The Twilight Saga – E...</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=asker-v%C3%A5penskjold'>Asker Våpenskjold</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=nobels-fredspris-nominerte-2018'>Nobels Fredspris Nominerte 2018</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=free-windows-10-upgrade-for-windows-7'>Free Windows 10 Upgrade For Windows 7</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=radiodokumentar-p3'>Radiodokumentar P3</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=mac-cosmetics-vilnius'>Mac Cosmetics Vilnius</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=nobels-fredspris-2018-dato'>Nobels Fredspris 2018 Dato</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=isabel-raad-kaster-penger'>Isabel Raad Kaster Penger</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=Kongen-av-Bast%C3%B8y'>Kongen Av Bastøy</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=psn-plus-multiple-accounts'>Psn Plus Multiple Accounts</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=charterfeber-sesong-3'>Charterfeber Sesong 3</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=master-historie-uio'>Master Historie Uio</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=habbo-help-tool'>Habbo Help Tool</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=handelens-dag-kristiansand-avis'>Handelens Dag Kristiansand Avis</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=maria-magdalena-filmweb'>Maria Magdalena Filmweb</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=billedkunstner-kryssord'>Billedkunstner Kryssord</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=the-accountant-2'>The Accountant 2</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=babylon-english-to-norwegian'>Babylon English To Norwegian</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=f%C3%A5r-ikke-jobb-med-mastergrad'>Får Ikke Jobb Med Mastergrad</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=subnautica-fragment'>Subnautica Fragment</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=forbedre-karakterer-f%C3%B8rstegangsvitnem%C3%A5l'>Forbedre Karakterer Førstegangsvitnemål</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=t%C3%B8rr-hvitvin-2018'>Tørr Hvitvin 2018</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=save-the-world-fortnite-free'>Save The World Fortnite Free</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=overvekt-kryssord'>Overvekt Kryssord</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=studere-i-london'>Studere I London</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=bildebehandlingsprogram-windows-10'>Bildebehandlingsprogram Windows 10</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=sofia-haugan-far'>Sofia Haugan Far</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=komplettfritid-%C3%A5pningstider'>Komplettfritid åpningstider</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=eplehuset-mac'>Eplehuset Mac</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=curling-spill-brett'>Curling Spill Brett</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=feud-rollebesetning'>Feud Rollebesetning</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=just-dance-2019-wii'>Just Dance 2019 Wii</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=i-salat-kryssord'>I Salat Kryssord</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=strawberry-daiquiri-mojito'>Strawberry Daiquiri Mojito</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=mari-baade-og-bj%C3%B8rn-skagestad'>Mari Baade Og Bjørn Skagestad</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=skolerute-2017'>Skolerute 2017</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=e3-2018-date'>E3 2018 Date</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=stemorsblomst-staude'>Stemorsblomst Staude</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=ut%C3%B8ya-dokumentar-2017'>Utøya Dokumentar 2017</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=destiny-2-forsaken-season-pass'>Destiny 2 Forsaken Season Pass</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=sandnes-norge'>Sandnes Norge</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=kindle-paperwhite-3'>Kindle Paperwhite 3</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=gavetips-jenter-7-%C3%A5r'>Gavetips Jenter 7 år</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=to-egenmeldinger-p%C3%A5-rad'>To Egenmeldinger På Rad</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=fenrir'>Fenrir</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=command-to-get-skill-points-in-skyrim'>Command To Get Skill Points In Skyrim</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=beta-tester-google'>Beta Tester Google</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=nettbasert-studie'>Nettbasert Studie</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=vigdis-hjorth-bergljots-familie'>Vigdis Hjorth Bergljots Familie</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=lego-l%C3%B8se-deler'>Lego Løse Deler</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=7.3-best-pvp-class'>7.3 Best Pvp Class</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=coop-vegetardag-test'>Coop Vegetardag Test</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=egenvurdering-sp%C3%B8rsm%C3%A5l'>Egenvurdering Spørsmål</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=strikke-lue-enkel-oppskrift-baby'>Strikke Lue Enkel Oppskrift Baby</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=fortnite-charts'>Fortnite Charts</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=fotballspiller-kryssord'>Fotballspiller Kryssord</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=iphone-se-anmeldelse'>Iphone Se Anmeldelse</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=stephenie-meyer-filmer'>Stephenie Meyer Filmer</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=No-Man%27s-Sky'>No Man's Sky</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=personlig-brev-fra-julenissen'>Personlig Brev Fra Julenissen</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=tilbakestille-pc-til-fabrikkinnstillinger-asus'>Tilbakestille Pc Til Fabrikkinnstillinger Asus</a>,
+";s:7:"expired";i:-1;}

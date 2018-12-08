@@ -1,0 +1,532 @@
+a:5:{s:8:"template";s:8503:"<!DOCTYPE html>
+<html lang="nb-NO">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<link href="http://gmpg.org/xfn/11" rel="profile"/>
+
+<title>{{ keyword }}</title>
+
+<style id="colormag_style-css" media="all" rel="stylesheet" type="text/css">
+
+html, body, div, span, h3, h4, p, a, ul, li {
+	border: 0;
+	font: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+html {
+	overflow-y: scroll; 
+	-webkit-text-size-adjust: 100%; 
+	-ms-text-size-adjust: 100%; 
+}
+footer,
+header,
+nav {
+	display: block;
+}
+ul {
+	list-style: none;
+}
+a:focus {
+	outline: thin dotted;
+}
+a:hover,
+a:active {
+	outline: 0;
+}
+
+body {
+	color: #444444;
+	font: 16px 'Open Sans', serif;
+	line-height: 1.6;
+	word-wrap: break-word;
+}
+body {
+	background-color: #eaeaea;
+}
+/* Headings */
+h3, h4 {
+	padding-bottom: 18px;
+	color: #333333;
+	font-weight: normal;
+	font-family: 'Open Sans', sans-serif;
+}
+h3 { font-size: 34px; line-height: 1.2; }
+h4 { font-size: 30px; line-height: 1.2; }
+
+/* =TEXT ELEMENTS
+----------------------------------------------- */
+p {
+	line-height: 1.6;
+	margin-bottom: 15px;
+	font-family: 'Open Sans', serif;
+	font-size: 15px;
+}
+i {
+	font-style: italic;
+}
+
+ul {
+	list-style: none;
+}
+li > ul {
+	margin: 0 0 0 10px;
+}
+
+a {
+	color: #289dcc;
+	text-decoration: none;
+}
+a:focus, a:active, a:hover {
+	text-decoration: none;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.clearfix {
+	display: inline-block;
+}
+.clearfix {
+	display: block;
+}
+
+body {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-size: cover;
+}
+#page {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.wide {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.wide #page {
+	max-width: 100%;
+}
+.inner-wrap {
+	margin: 0 auto;
+	max-width: 1140px;
+}
+
+#masthead {
+}
+#header-text-nav-container {
+	background-color: #FFFFFF;
+}
+#header-text-nav-wrap {
+	padding: 20px 0 25px;
+}
+#header-left-section {
+	float: left;
+}
+#header-text {
+	float: left;
+	padding-right: 20px;
+}
+#site-title {
+	padding-bottom: 0;
+	line-height: 1.2;
+}
+#site-title a {
+	color: #289dcc;
+	font-size: 46px;
+}
+#site-description {
+	line-height: 24px;
+	font-size: 16px;
+	color: #666666;
+	padding-bottom: 0px;
+	font-family: 'Open Sans', serif;
+}
+#header-right-section {
+	float: right;
+}
+
+.fa {
+	font-size: 22px;
+	color: #CCCCCC;
+}
+
+
+nav li > ul {
+	margin: 0;
+	list-style: none;
+}
+#site-navigation {
+   box-shadow: 0 0 2px rgba(0, 0, 0, 0.1) inset;
+   position: relative;
+   background-color: #232323;
+   border-top: 4px solid #289dcc;
+}
+#site-navigation .inner-wrap {
+   position: relative;
+}
+.main-navigation {
+	width: 100%;
+	text-align: center;
+}
+.main-navigation li {
+	float: left;
+	position: relative;
+	font-family: 'Open Sans', serif;
+	font-weight: 300;
+}
+.main-navigation a {
+   color: #ffffff;
+	display: block;
+	float: none;
+	font-size: 14px;
+   font-weight: 600;
+	padding: 10px 12px;
+   text-transform: uppercase;
+}
+.main-navigation a:hover,
+.main-navigation ul li:hover > a {
+}
+.main-navigation a:hover,
+.main-navigation ul li:hover > a {
+	color: #ffffff;
+}
+.main-navigation a:hover,
+.main-navigation ul li:hover > a {
+   background-color: #289dcc;
+}
+.main-navigation li.page_item_has_children > a:after {
+   font-family: FontAwesome;
+   font-style: normal;
+   font-weight: normal;
+   text-decoration: inherit;
+   color: #ffffff;
+   font-size: 14px;
+   padding-left: 6px;
+}
+.main-navigation li.page_item_has_children > a:after {
+   content: "\f107";
+   color: #ffffff;
+}
+/* =DROP DOWN
+----------------------------------------------- */
+.main-navigation .children {
+   background-color: #232323;
+}
+.main-navigation ul li ul {
+	display:none;
+	z-index: 100;
+}
+.main-navigation ul li:hover ul {
+	display:block;
+}
+.main-navigation ul li ul {
+	position: absolute;
+	width: 200px;
+	top: 42px;
+}
+.main-navigation ul li ul li {
+	float: none;
+}
+.main-navigation ul li ul li a {
+   border-top: none;
+}
+.main-navigation ul li ul li a {
+	float: none;
+	font-size: 14px;
+	height: 100%;
+	padding: 10px 15px;
+	color: #ffffff;
+	width: 170px;
+   text-align: left;
+   text-transform: none;
+}
+.main-navigation ul li ul li a:hover,
+.main-navigation ul li ul li:hover > a {
+   color: #FFFFFF;
+   background-color: #289dcc;
+}
+
+/* =RESPONSIVE MENU
+----------------------------------------------- */
+.menu-toggle {
+	display: none;
+	cursor: pointer;
+}
+.site-header .menu-toggle {
+	color: #ffffff;
+	margin: 0;
+	text-align: center;
+	font-family: 'Open Sans', serif;
+   padding-bottom: 0;
+}
+.site-header .menu-toggle:hover {
+   background-color: #289dcc;
+}
+.site-header .menu-toggle:before {
+	content: "\f0c9";
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: inherit;
+	font-size: 23px;
+	color: #ffffff;
+   padding: 8px 12px;
+   display: block;
+}
+
+#main {
+	padding-top: 30px;
+	padding-bottom: 20px;
+	background-color: #ffffff;
+}
+
+#colophon {
+	font-size: 14px;
+	line-height: 1.4;
+}
+
+
+.footer-socket-wrapper {
+   padding: 20px 0px 50px;
+   background-color: #303440;
+}
+.footer-socket-area {
+   width: 100%;
+}
+.footer-socket-right-section {
+   float: right;
+}
+.footer-socket-wrapper .copyright {
+   color: #b1b6b6;
+   float: left;
+   font-size: 14px;
+   max-width: 50%;
+}
+.footer-socket-wrapper .copyright a {
+   color: #b1b6b6;
+   border-bottom: 1px solid #5a5d62;
+}
+.footer-socket-wrapper .copyright a:hover {
+   color: #ffffff;
+}
+
+/* =SCROLL UP
+----------------------------------------------- */
+a#scroll-up {
+	bottom: 20px;
+	position: fixed;
+	right: 20px;
+	display: none;
+	opacity: 0.5;
+	filter:alpha(opacity=50); /* For IE8 and earlier */
+}
+a#scroll-up i {
+	font-size: 40px;
+	color: #289dcc;
+}
+a#scroll-up:hover {
+	opacity: 1;
+	filter:alpha(opacity=100); /* For IE8 and earlier */
+}
+
+
+/* Sharing Section */
+#site-navigation {
+   z-index: 999;
+}
+
+/* Gallery Post Format */
+
+
+/*--------------------------------------------------------------
+Responsive Structure
+--------------------------------------------------------------*/
+@media screen and (max-width: 1190px) {
+   #page {
+      width: 97%;
+   }
+   .wide #page {
+      width: 100%;
+   }
+   .inner-wrap {
+      width: 94%;
+   }
+}
+@media screen and (max-width:768px) {
+   #header-text-nav-wrap {
+      padding: 10px 0;
+   }
+   #header-left-section {
+      float: none;
+      margin-bottom: 10px;
+   }
+   #header-text {
+      float: none;
+      text-align: center;
+      padding-right: 0;
+   }
+   #header-right-section {
+      float: none;
+   }
+   .menu-toggle {
+      display: block;
+      float: left;
+   }
+   .main-navigation ul {
+      display: none;
+   }
+}
+@media screen and (max-width: 600px) {
+   .footer-socket-right-section {
+      float: none;
+      text-align: center;
+   }
+   .footer-socket-wrapper .copyright {
+      float: none;
+      max-width: 100%;
+      text-align: center;
+   }
+}
+</style>
+
+</head>
+<body class=" wide">
+<div class="hfeed site" id="page">
+<header class="site-header clearfix" id="masthead">
+<div class="clearfix" id="header-text-nav-container">
+<div class="inner-wrap">
+<div class="clearfix" id="header-text-nav-wrap">
+<div id="header-left-section">
+<div class="" id="header-text">
+<h3 id="site-title">
+<a href="#" rel="home" title="{{ keyword }}">{{ keyword }}</a>
+</h3>
+<p id="site-description">Advice !!</p>
+
+</div>
+</div>
+<div id="header-right-section">
+</div>
+</div>
+</div>
+<nav class="main-navigation clearfix" id="site-navigation" role="navigation">
+<div class="inner-wrap clearfix">
+<h4 class="menu-toggle"></h4>
+<div class="menu">
+<ul>
+<li class="page_item page-item-46"><a href="#">insurance</a></li>
+<li class="page_item page-item-35"><a href="#">Contact</a></li>
+<li class="page_item page-item-66"><a href="#">Home</a></li>
+<li class="page_item page-item-18"><a href="#">Student </a></li>
+<li class="page_item page-item-4"><a href="#">Travel</a></li>
+</ul></div>
+</div>
+</nav>
+</div>
+</header>
+<div class="clearfix" id="main">
+<div class="inner-wrap clearfix">
+{{ text }}
+
+		</div>
+</div>
+<footer class="clearfix" id="colophon">
+<div class="footer-socket-wrapper clearfix">
+<div class="inner-wrap">
+{{ links }}
+<div class="footer-socket-area">
+<div class="footer-socket-right-section">
+</div>
+<div class="footer-socket-left-sectoin">
+<div class="copyright">Copyright  2018 <a href="#" title="{{ keyword }}"><span>{{ keyword }}</span></a>. All rights reserved.</div> </div>
+</div>
+</div>
+</div>
+</footer>
+<a href="#" id="scroll-up"><i class="fa fa-chevron-up"></i></a>
+</div>
+
+
+</body>
+</html>";s:4:"text";s:6545:"29.08.2018 · Sosiologi Bachelor (Problemstilling) - posted in Skole og leksehjelp: Hei, skal velge en retning til min bachelor, no har eg bachelor der eg skal forske på samfunnet eller mennesker, ka dei mener, korleis dei blir påverka osv. Under finner du programmet for nye studenter i oppstartsuken av bachelorprogrammet i sosiologi. Det inneholder 60 studiepoeng innføringsemner i samfunnsvitenskap medregnet ex.phil., og 80 studiepoeng som utgjør en fordypning innen sosiologi. Bachelorstudiet i sosiologi gir en bred og grundig innsikt i hvordan samfunnet og det sosiale liv fungerer, hvilke krefter som former samfunnet og hva som påvirker menneskers handlinger og valg. Finn emner. Noen nettskoler har rullerende opptak, mens andre har faste oppstartstidspunkt. Sosiologi gir et godt grunnlag for en framtidig yrkeskarriere og sosiologer har et bredt nedslagsfelt i arbeidsmarkedet. I faget lærer du å bruke ulike begreper, teorier og metoder til å forstå hvordan samfunnsforholdene har blitt til og hvordan disse skaper muligheter og begrensninger for enkeltmennesker og grupper. • Bachelor i sosiologi med støtteemner i fransk, engels, nordisk m.m. Sosiologi er vitenskapen om samfunnet og det sosiale liv. Med en bachelor i sosialt arbeid vil du lære å bistå barn, ungdom, voksne, grupper og lokalsamfunn for å bedre deres levekår og livskvalitet. Gjennom begreper som rolle, sosialisering, identitet, klasse, kjønn, demokrati, etnisitet, ulikhet og makt vil du kunne beskrive kompleksiteten i ulike samfunn. Skriver flere tema og skal finne 1 … Sosiologi er det bredeste samfunnsfaget du kan studere, og kan kort defineres som studiet av mennesker i samfunn. Samtidig formes mennesket av det samfunn de vokser opp i. Det er dette vekselspillet; hvordan samfunnet både formes av og former menneskers liv og handlingsvalg, som utgjør kjernen i sosiologien som vitenskapelig disiplin. Finn emner Søk. Sosiologi fokuserer på studiet av samfunnet og sosial atferd. Innledning Bachelor i pedagogikk ved Høyskolen Kristiania handler om læring og undervisning innenfor utdanning og arbeidsliv. Anvendt matematikk og mekanikk (master - to år) Biologi (bachelor) Biologi (master - to år) For ansatte; ... Bachelor- og årsenhet: SV-info; Master: Ekspedisjonen; Flere kontaktpunkter. Det er registrert 271 relaterte studier, og det finnes 2 relaterte yrker til utdanningen SOSIOLOGI (Bachelor). Sosiologi er et samfunnsfag som gir deg redskaper i form av fakta, teorier og metoder til å forklare hvordan sosiale systemer virker både innenfor og på tvers av landegrenser. Sosiologer kan arbeide i … Bachelor i sosiologi med støtteemner i statsvitenskap, politikk og samfunnsforhold Bachelor i sosiologi med støtteemner i psykologi Studenter som ønsker å jobbe i skoleverket anbefales å legge inn et annet undervisningsfag med 60 studiepoengs omfang som støtteemner (emnegruppe). Få med deg det som skjer her! Her finner du alt av informasjon om utdanning innen SOSIOLOGI (Bachelor).Studiet går under: Samfunnsfag, psykologi.Det er 89 registrert skoler som tilbyr studiet, fordelt på 16 studiesteder. Poenggrenser lørdag 30. juli 2016. Starter du på Universitetet I Stavanger til høsten? 3 aktuelle problemstillinger og forhold vi i dagliglivet ofte tar for gitt. «Det er bare en bachelor» – det er mange som går gjennom studiene på Øvre Blindern uten å gjøre særlig mye. Sosiologer har studert sosiologi, studiet av forholdet mellom mennesker. Viser poenggrenser ved suppleringsopptaket 29. juli (SUPPL) og hovedopptaket 20. juli (HOVED). Samfunnet skapes av mennesker gjennom sosial samhandling. Vi har spurt noen uteksaminerte studenter de siste årene hvor det har blitt av dem, og hvordan de har fått bruk for utdannelsen sin i arbeidslivet. Forsiden UiO Det samfunnsvitenskapelige fakultet Institutt for sosiologi og samfunnsgeografi (ISS) UiO UiO Universitetet i Oslo Institutt for sosiologi og samfunnsgeografi (ISS) Det samfunnsvitenskapelige fakultet. Bachelor i Sosiologi programmene vanligvis har fire fokusområder; sammensetning, organisering, kultur, og utvikling og kurs er utledet fra disse fire områdene av studiet. Institutt for sosiologi og samfunnsgeografi er landets fremste lærested for disse fagene med forskning, undervising og formidling på høyeste nivå. I dette emnet viser vi hvordan viktige områder som velferdsstat, arbeid, familie, helse, etnisitet og fattigdom og kriminalitet kan forstås i en større samfunnsmessig sammenheng. Sosiologi handler om hvordan mennesker samhandler, og hvordan samhandling former og formes av omgivelsene på ulike nivå: i smågrupper, i organisasjoner og på samfunnsnivå. Bachelor i sosiologi og samfunnsanalyse ved studiested Bodø Nettstudier gjør det mulig å studere hvor som helst når som helst. Grunnskolelærerutdanningen kan sies å være bred, noe som betyr at man lærer å undervise i mange fag. Sosiologiske analyser viser hvordan vi kan håndtere globale miljøproblemer og hvordan velferdsstaten skal se ut i fremtiden. Sosiologi gir et godt grunnlag for en framtidig yrkeskarriere og sosiologer har et bredt nedslagsfelt i arbeidsmarkedet. Bachelorprogrammet i sosiologi er 3-årig med i alt 180 studiepoeng. Brann i et laboratorium, hjertestans på lesesalen eller en brukket fot på fotballbanen - dette er eksempler på mulige uønska hendelser som kan oppstå på et stort universitet. 3 1. Høgskolen i Bodø (HBO) er med sine omlag 500 ansatte og 5000 studenter Nord- Norges største høgskole. Sosiologi har blitt kalt faget om "mennesket i samfunnet og samfunnet i mennesket". Studieprogrammer som ikke tar opp nye studenter . Vi har spurt noen uteksaminerte studenter de siste årene hvor det har blitt av dem, og hvordan de har fått bruk for utdannelsen sin i arbeidslivet. Her lærer du å forvalte den. Utbyttet av en bachelor kan bli svartmalt. Starter du på Universitetet I Stavanger til høsten?  Bachelor i markedsføring og merkevareledelse er utviklet i tett samråd med næringslivet, og gir en systematisk gjennomgang av merkevarebyggingens verktøy. Menneskelig kapital er blant de viktigste ressursene i en bedrift. Få med deg det som skjer her! Institutt for sosiologi og samfunnsgeografi er landets fremste lærested for disse fagene med forskning, undervising og formidling på høyeste nivå. Sosiologi er vitenskapen om samfunnslivet i vid forstand. Sosiologens arbeid går ut på å undersøke ulike sider i et samfunn og hvordan mennesker former samfunnet rundt seg. ";s:7:"keyword";s:18:"sosiologi bachelor";s:5:"links";s:7826:"<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=iiglo-powerbank-bruksanvisning'>Iiglo Powerbank Bruksanvisning</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=midt%C3%B8sten-konflikten'>Midtøsten Konflikten</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=iphone-timeline-models'>Iphone Timeline Models</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=reisetips-milos'>Reisetips Milos</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=freecell-game'>Freecell Game</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=tog-1-tank'>Tog 1 Tank</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=collateral-beauty-rollebesetning'>Collateral Beauty Rollebesetning</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=yme-universe-%C3%A5pningstider'>Yme Universe åpningstider</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=iphone-32-se'>Iphone 32 Se</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=instagram-app'>Instagram App</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=h%C3%A5ndball-em-2018-kvinner-kvalifisering'>Håndball Em 2018 Kvinner Kvalifisering</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=statped-lydbok-logg-inn'>Statped Lydbok Logg Inn</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=se-%26-h%C3%B8r-extra'>Se & Hør Extra</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=quentin-tarantino-once-upon-a-time-in-hollywood'>Quentin Tarantino Once Upon A Time In Hollywood</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=just-cause-aldersgrense'>Just Cause Aldersgrense</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=subnautica-interesting-places'>Subnautica Interesting Places</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=offisielle-ludo-regler'>Offisielle Ludo Regler</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=crossfit-games-live'>Crossfit Games Live</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=adx-firepower-h02'>Adx Firepower H02</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=level-10-fitness-cheat-sims-4'>Level 10 Fitness Cheat Sims 4</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=sony-walkman-yellow'>Sony Walkman Yellow</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=blindsone-anmeldelser'>Blindsone Anmeldelser</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=frav%C3%A6rsassistent-outlook-app'>Fraværsassistent Outlook App</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=strender-p%C3%A5-hydra'>Strender På Hydra</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=watch-star-wars-best-order'>Watch Star Wars Best Order</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=ut-i-v%C3%A5r-hage-kommunalministeren'>Ut I Vår Hage Kommunalministeren</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=oa-tv'>Oa Tv</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=oa-tv'>Oa Tv</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=mudbound-anmeldelse'>Mudbound Anmeldelse</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=biggest-bird'>Biggest Bird</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=fred-kryssord'>Fred Kryssord</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=youtube-video-downloader-ytd'>Youtube Video Downloader Ytd</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=star-wars-filmer'>Star Wars Filmer</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=omadressere-bt'>Omadressere Bt</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=uit-farmasi-snitt'>Uit Farmasi Snitt</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=dyrlegevakt-follo'>Dyrlegevakt Follo</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=gran-turismo-sport-livery-editor'>Gran Turismo Sport Livery Editor</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=fragglene-p%C3%A5-norsk'>Fragglene På Norsk</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=enb-files'>Enb Files</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=spectral-tiger-card-price'>Spectral Tiger Card Price</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=chromecast-test'>Chromecast Test</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=flat-coated-retriever-valp'>Flat Coated Retriever Valp</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=dropbox-gratis'>Dropbox Gratis</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=joel-kinnaman-wife'>Joel Kinnaman Wife</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=bonusfamilien-sesong-1'>Bonusfamilien Sesong 1</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=ordvalg-kryssord'>Ordvalg Kryssord</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=how-to-make-a-rust-server'>How To Make A Rust Server</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=zurich-airport'>Zurich Airport</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=brikken-kryssord'>Brikken Kryssord</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=cuphead-trailer'>Cuphead Trailer</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=snarvei-til-skrivebord-windows-10'>Snarvei Til Skrivebord Windows 10</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=syre-kryssord'>Syre Kryssord</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=items-rotmg'>Items Rotmg</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=virus-p%C3%A5-mobilen-samsung'>Virus På Mobilen Samsung</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=diablo-3-best-solo-class-2018'>Diablo 3 Best Solo Class 2018</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=zakynthos-med-barn'>Zakynthos Med Barn</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=how-did-uncle-scrooge-get-rich'>How Did Uncle Scrooge Get Rich</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=talents-for-feral-druid'>Talents For Feral Druid</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=forskjellen-mellom-transformasjonsledelse-og-transaksjonsledelse'>Forskjellen Mellom Transformasjonsledelse Og Transaksjonsledelse</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=ryan-reynolds-blake-lively'>Ryan Reynolds Blake Lively</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=eksamensdatoer-2018-uit'>Eksamensdatoer 2018 Uit</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=keynote-itunes'>Keynote Itunes</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=sigrid-undset-english'>Sigrid Undset English</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=deLillos'>DeLillos</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=safe-exam-browser-quit-password'>Safe Exam Browser Quit Password</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=fotoknudsen-rammer'>Fotoknudsen Rammer</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=pdf-creator-free-download'>Pdf Creator Free Download</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=upgrade-2018-rollebesetning'>Upgrade 2018 Rollebesetning</a>,
+<a href='http://robertcreativevibe.com/site/32jbqg.php?0df9c7=the-elder-scrolls%3A-arena'>The Elder Scrolls: Arena</a>,
+";s:7:"expired";i:-1;}
